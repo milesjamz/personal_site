@@ -1,10 +1,11 @@
 import React from 'react';
-import RilloOne from './rini1.jpg'
-
+// import RilloOne from './rini1.jpg'
+    // <img className="aboutMePic" src={RilloOne} alt='the man himshelf' height='29%' width='29%' />
+    
 function AboutMe() {
   return (
     <div className="aboutme">
-    <img className="aboutMePic" src={RilloOne} alt='the man himshelf' height='29%' width='29%' />
+
       hey hey hey, dis me eebeeet mee<br/>
       Also i'm great<br/>
       in addition quite nice<br/>
