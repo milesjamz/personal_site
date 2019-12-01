@@ -1,5 +1,5 @@
 .navbar {
-  position:fixed;
+  /*position:fixed;*/
   top:0;
   color:red;
   background-color:pink;
@@ -9,4 +9,10 @@
   color:blue;
   margin-top:4%;
   background-color: lightblue;
+}
+
+.aboutme {
+  color:yellow;
+  background-color: gold;
+  margin-top:3%;
 }
