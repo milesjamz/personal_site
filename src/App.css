@@ -1,5 +1,5 @@
 .navbar {
-  /*position:fixed;*/
+text-align:center;
   top:0;
   color:red;
   background-color:pink;
@@ -15,4 +15,10 @@
   color:yellow;
   background-color: gold;
   margin-top:3%;
+  text-align:center;
+}
+
+.aboutMePic {
+  float:left;
+  display:inline-block;
 }
