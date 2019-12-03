@@ -3,9 +3,16 @@ import React from 'react';
     // <img className="aboutMePic" src={RilloOne} alt='the man himshelf' height='29%' width='29%' />
     
 function AboutMe() {
+
+  const plee = hmm => {
+    const mySong = new Audio('./Pastry.mp3')
+    console.log(typeof mySong )
+    mySong.play()
+  }
+
   return (
     <div className="aboutme">
-
+      <button onClick={() => plee()} >Play a little summin summin</button><br/>
       hey hey hey, dis me eebeeet mee<br/>
       Also i'm great<br/>
       in addition quite nice<br/>
