@@ -8,11 +8,12 @@ text-align:center;
 .navbar button {
   color:salmon;
   margin:10px;
+  background-color: pink;
 }
 
 .navbar button:hover {
   color:darkred;
-  background-color: pink;
+  background-color:grey;
 }
 
 .body {
@@ -45,6 +46,16 @@ text-align:center;
   background-color: gold;
   margin-top:3%;
   text-align:center;
+}
+
+.aboutme button {
+  color:yellow;
+  background-color:gold;
+}
+
+.aboutme button:hover {
+  color:goldenrod;
+  background-color:grey;
 }
 
 .aboutMePic {
