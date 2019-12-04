@@ -3,7 +3,9 @@ import './App.css';
 import NavBar from './NavBar'
 import Body from './Body'
 import AboutMe from './AboutMe'
-import Graph from './Graph'
+import Etc from './Etc'
+import CV from './Cv'
+import Projects from './Projects'
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,9 +13,6 @@ import {
   Link
 } from "react-router-dom";
 
-    // <Body />
-    // <AboutMe />
-    // <Graph/>
 
 function App() {
   return (
@@ -27,13 +26,13 @@ function App() {
             <AboutMe />
           </Route>
           <Route path="/projects">
-            <Graph />
+            <Projects />
           </Route>
           <Route path="/cv">
-            <Graph />
+            <CV />
           </Route>
           <Route path="/etc">
-            <Graph />
+            <Etc />
           </Route>
 
         </Switch>

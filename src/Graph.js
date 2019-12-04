@@ -19,15 +19,15 @@ function Graph() {
               {
                 data: {
                   html: 0.85,
-                  css: .77,
+                  css: .8,
                   js: 0.95,
                   react: 0.92,
                   ruby: 0.85
                 },
-                meta: { color: '#58FCEC' }
+                meta: { color: 'navy' }
               },
             ]}
-            size={400}
+            size={300}
           />
     </div>
   );

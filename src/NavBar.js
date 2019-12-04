@@ -1,24 +1,12 @@
 import React from 'react';
-import ReactDOM from "react-dom";
 import {
-  BrowserRouter as Router,
-  Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Link
 } from "react-router-dom";
 
 
 
 function NavBar() {
-
-
-// const aboot = () => alert('ABOOT')
-// const body = () => alert('BODY')
-// const proojects = () => alert('PROOOOJECTS')
-// const seevea = () => alert('SEE VEE HEE HEE')
-// const etcetera = () => alert('ET CET ERRR UHH')
 
   return (
     <div className="navbar">
