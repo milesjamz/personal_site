@@ -63,6 +63,10 @@ text-align:center;
   display:inline-block;
 }
 
+.projects {
+  margin-left:25%;
+}
+
 img{
   border-radius:50%; 
 }
