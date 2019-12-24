@@ -67,6 +67,11 @@ text-align:center;
   margin-left:25%;
 }
 
+.cv {
+  padding-left:40%;
+  background-color:green;
+}
+
 img{
   border-radius:50%; 
 }
