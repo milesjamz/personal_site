@@ -72,6 +72,13 @@ text-align:center;
   background-color:green;
 }
 
+.etc {
+  margin-top:4%;
+  margin-left:11%;
+  border-style:solid;
+  border: orchid;
+}
+
 img{
   border-radius:50%; 
 }
