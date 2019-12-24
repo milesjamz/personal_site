@@ -1,7 +1,7 @@
 import React from 'react';
 // import RilloOne from './rini1.jpg'
     // <img className="aboutMePic" src={RilloOne} alt='the man himshelf' height='29%' width='29%' />
-    
+import MeHoney from './mehoney.jpg'
 function AboutMe() {
 
   const plee = hmm => {
@@ -27,6 +27,7 @@ function AboutMe() {
       moreover, superb<br/>
       i can also say very sweet<br/>
       f i n i s<br/> 
+      <img src={MeHoney} alt='hehe' height='18%' width='18%' />
     </div>
   );
 }
