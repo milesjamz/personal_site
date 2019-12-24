@@ -47,9 +47,6 @@ class Projects extends React.Component {
       </button>< br/>
       <canvas width={640} height={425} 
       style={{backgroundColor:this.colorsMa[this.state.count] }} />
-      <ul>
-      {showMyClues()}
-      </ul>
     </div>
   );
   }
