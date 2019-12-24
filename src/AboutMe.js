@@ -1,12 +1,9 @@
 import React from 'react';
-// import RilloOne from './rini1.jpg'
-    // <img className="aboutMePic" src={RilloOne} alt='the man himshelf' height='29%' width='29%' />
 import MeHoney from './mehoney.jpg'
 function AboutMe() {
 
   const plee = hmm => {
     const mySong = new Audio('./Pastry.mp3')
-    console.log(typeof mySong )
     mySong.play()
   }
 
