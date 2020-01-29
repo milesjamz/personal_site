@@ -26,7 +26,7 @@ handleSecondSubmit = e => {
 	e.preventDefault()
 	let damn = e
 	alert(this.state.formNameTwo)
-	console.log(damn)
+	console.log(this.state.formNameTwo)
 }
 
 newPhrase = () => {
