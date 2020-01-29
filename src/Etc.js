@@ -22,6 +22,11 @@ handleSubmit = (e) => {
 	console.log(newPhrase)
 }
 
+handleSecondSubmit = e => {
+	e.preventDefault()
+	alert(e)
+}
+
 newPhrase = () => {
 	return this.state.formName.split('').join(' ').toLowerCase()
 }
