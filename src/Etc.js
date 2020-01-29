@@ -3,11 +3,16 @@ import React from 'react';
 class Etc extends React.Component {
 
 state = {
-	formName: ''
+	formName: '',
+	formNameTwo: ''
 }
 
 handleChange = (e) => {
 	this.setState({ formName: e.target.value })
+}
+
+handleChangeTwo = e => {
+	this.setState({ formNameTwo: e.target.value })
 }
 
 handleSubmit = (e) => {
@@ -34,6 +39,17 @@ render() {
     		</label>
     		<input type="submit" value="Submit" />
     	</form>
+		<br />
+		<form onSubmit={this.handleSecondSubmit} >
+			<label>
+				Enter text here to see if it's valid or not.<br />
+				<input type="text"
+					value={this.state.fromNameTwo}
+					onChange={this.handleChangeTwo}
+					name="thang" />
+			</label>
+				<input type="submit" value="Submit" />
+		</form>
     	{this.newPhrase()}
     </div>
   );
