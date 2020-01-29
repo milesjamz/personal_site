@@ -14,15 +14,15 @@ class Projects extends React.Component {
 	'antiquewhite','aquamarine','azure','beige','bisque','blueviolet','brown',
 	'chartreuse','chocolate','cornflowerblue','crimson','darkmagenta', 'fuschia']
   
-  tick = () => { 
-    this.state.count === 25 
-    ? this.setState({ count: 0 }) 
-    : this.setState ({ count: this.state.count + 1 })
-  console.log(this.state.count)
-  }
+  // tick = () => { 
+  //   this.state.count === 25 
+  //   ? this.setState({ count: 0 }) 
+  //   : this.setState ({ count: this.state.count + 1 })
+  // console.log(this.state.count)
+  // }
 
   componentDidMount() {
-    setInterval( () => this.tick(), 1000 )
+    // setInterval( () => this.tick(), 1000 )
     fetch(this.myApi)
   .then(resp => resp.json())
   .then(parsedResp => this.setState({ clues: parsedResp }) )
