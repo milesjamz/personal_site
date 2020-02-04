@@ -42,20 +42,21 @@ text-align:center;
 }
 
 .aboutme {
-  color:yellow;
-  background-color: gold;
-  margin-top:3%;
+  color:#FFF6EC;
+  background-color:#228b22;
+  padding-top:3%;
+  height:800px;
   text-align:center;
 }
 
 .aboutme button {
-  color:yellow;
-  background-color:gold;
+  color:#FFF6EC;
+  background-color:#228b22;
 }
 
 .aboutme button:hover {
-  color:goldenrod;
-  background-color:grey;
+  color:FFF6EC;
+  background-color:gold;
 }
 
 .aboutMePic {
@@ -77,6 +78,14 @@ text-align:center;
   margin-left:11%;
   border-style:solid;
   border: orchid;
+}
+
+.practice {
+  background-color:#00FF00;
+  color:#fffd55;
+  height:800px;
+  text-align:center;
+  padding-top:20%;
 }
 
 img{

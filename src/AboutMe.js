@@ -10,21 +10,11 @@ function AboutMe() {
   return (
     <div className="aboutme">
       <button onClick={() => plee()} >Play a little summin summin</button><br/>
-      hey hey hey, dis me eebeeet mee<br/>
-      Also i'm great<br/>
-      in addition quite nice<br/>
-      moreover, superb<br/>
-      i can also say very sweet<br/>
-      mama mia, mama mia let me go<br/>
-      ha hah a<br/>
-      do  dodododo<br/>
-      hey hey hey, dis me eebeeet mee<br/>
-      Also i'm great<br/>
-      in addition quite nice<br/>
-      moreover, superb<br/>
-      i can also say very sweet<br/>
-      f i n i s<br/> 
-      <img src={MeHoney} alt='hehe' height='18%' width='18%' />
+<h2>MILES MARILLO</h2>
+I'm just a swell guy in a wonderful world.<br/>
+Ain't my wife a beaut?
+<br/><br/>
+      <img src={MeHoney} alt='hehe' height='100%' width='50%' />
     </div>
   );
 }

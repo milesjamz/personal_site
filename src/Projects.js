@@ -13,13 +13,6 @@ class Projects extends React.Component {
 	'orange','red','pink','black','gold','grey','cyan','navy','aliceblue',
 	'antiquewhite','aquamarine','azure','beige','bisque','blueviolet','brown',
 	'chartreuse','chocolate','cornflowerblue','crimson','darkmagenta', 'fuschia']
-  
-  // tick = () => { 
-  //   this.state.count === 25 
-  //   ? this.setState({ count: 0 }) 
-  //   : this.setState ({ count: this.state.count + 1 })
-  // console.log(this.state.count)
-  // }
 
   componentDidMount() {
     // setInterval( () => this.tick(), 1000 )

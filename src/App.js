@@ -6,6 +6,8 @@ import AboutMe from './AboutMe'
 import Etc from './Etc'
 import CV from './Cv'
 import Projects from './Projects'
+import Practice from './Practice'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,7 +36,9 @@ function App() {
           <Route path="/etc">
             <Etc />
           </Route>
-
+          <Route path="/practice">
+            <Practice />
+          </Route>
         </Switch>
     </div>
   );

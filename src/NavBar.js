@@ -15,7 +15,8 @@ function NavBar() {
       <Link to='/body'> <span style={{color:'yellow'}}>B</span> ody </Link> || 
       <Link to='/projects'> <span style={{color:'yellow'}}>P</span> rojects </Link> ||
       <Link to='/cv'>  <span style={{color:'yellow'}}>C</span> V </Link> || 
-      <Link to='/etc'> <span style={{color:'yellow'}}>E</span> tc </Link>
+      <Link to='/etc'> <span style={{color:'yellow'}}>E</span> tc </Link> ||
+      <Link to='/practice'> <span style={{color:'yellow'}}>P</span> ractice </Link>
     </div>
   );
 }
