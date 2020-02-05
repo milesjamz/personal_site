@@ -15,7 +15,6 @@ class Projects extends React.Component {
 	'chartreuse','chocolate','cornflowerblue','crimson','darkmagenta', 'fuschia']
 
   componentDidMount() {
-    // setInterval( () => this.tick(), 1000 )
     fetch(this.myApi)
   .then(resp => resp.json())
   .then(parsedResp => this.setState({ clues: parsedResp }) )
