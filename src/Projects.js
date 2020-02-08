@@ -1,12 +1,7 @@
 import React from 'react';
+import GithubBtn from './GithubBtn'
 
 function Projects() {
-
-  const githubBtn = link => {
-    <div>
-    <li><button><a href="link" target="_blank">github</a></button></li>
-    </div>
-  }
 
   return (
     <div className="projects">
@@ -15,15 +10,10 @@ function Projects() {
 Here are some of my projects:
 </p>
 <ul>
-  <li>mythOS - <button> <a href='https://github.com/milesjamz/mod4frontend' 
-                           target="_blank">github</a> </button> </li> 
-  <li>brew review - <button> <a href='https://github.com/milesjamz/mod4frontend' 
-                           target="_blank">github</a> </button></li>
-  <li>bibliotecha - <button> <a href='https://github.com/milesjamz/bibliotecha' 
-                           target="_blank">github</a></button></li>
-  <li>hypochondriapp - <button> <a href='https://github.com/milesjamz/hypochondriapp' 
-                           target="_blank">github</a></button></li>
-{githubBtn('hypochondriapp')}
+  <li>mythOS - <GithubBtn link="https://github.com/milesjamz/mythosfrontend"/></li>
+  <li>brew review - <GithubBtn link="https://github.com/milesjamz/mod4frontend"/></li>
+  <li>bibliotecha - <GithubBtn link="https://github.com/milesjamz/bibliotecha"/></li>
+  <li>hypochondriapp - <GithubBtn link='https://github.com/milesjamz/hypochondriapp'/></li>
 </ul>
     </div>
   );
