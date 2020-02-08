@@ -2,7 +2,7 @@
 text-align:center;
   top:0;
   color:red;
-  background-color:pink;
+  background-color:fuchsia;
 }
 
 .navbar button {
@@ -18,17 +18,20 @@ text-align:center;
 
 .body {
   color:blue;
-  margin-top:4%;
-  background-color: lightblue;
+  padding-top:4%;
+  text-align:center;
+  background-color:forestgreen;
+  height:800px;
+  font-family:futura;
 
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+  /* overflow: hidden; Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  /* white-space: nowrap; Keeps the content on a single line */
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  /* animation: 
     typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    blink-caret .75s step-end infinite; */
 }
 
 @keyframes typing {

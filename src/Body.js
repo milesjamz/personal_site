@@ -3,10 +3,10 @@ import React from 'react';
 function Body() {
   return (
     <div className="body">
-      Damn dude. you KNOW that this is something, something realll powerful. something i'm really gonna remembah. R E M E M B A H ! ! ! <br/>
-      <p>heeeeeleeelelelel</p>
-      Damn dude. you KNOW that this is something<br/>  
-      ha ha ha a ha
+      <h1>-=º¤ W E L C O M E ¤º=-</h1>
+      <p>
+        This is the website for Miles Marillo, a full stack software engineer.
+      </p>
     </div>
   );
 }

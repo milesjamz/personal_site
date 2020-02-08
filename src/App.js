@@ -6,13 +6,11 @@ import AboutMe from './AboutMe'
 import Etc from './Etc'
 import CV from './Cv'
 import Projects from './Projects'
-import Practice from './Practice'
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -21,7 +19,7 @@ function App() {
     <div className="app">
     <NavBar />
         <Switch>
-          <Route path="/body">
+          <Route exact path="/">
             <Body />
           </Route>
           <Route path="/about">
@@ -35,9 +33,6 @@ function App() {
           </Route>
           <Route path="/etc">
             <Etc />
-          </Route>
-          <Route path="/practice">
-            <Practice />
           </Route>
         </Switch>
     </div>
