@@ -1,5 +1,5 @@
 import React from 'react';
-import MeHoney from './mehoney.jpg'
+import MeHoney from './images/mehoney.jpg'
 function AboutMe() {
 
   const plee = hmm => {

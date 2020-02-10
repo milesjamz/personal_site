@@ -1,11 +1,39 @@
 import React from 'react';
-import GithubBtn from './GithubBtn'
-import Mythos from './mythos1.png'
-import Biblio from './bibliotecha1.png'
-import Hypo from './hypochond1.png'
-import BrewRev from './brewrev1.png'
+import ProjectContainer from './ProjectContainer.js'
+
 
 function Projects() {
+
+  const projects = [
+    {name:'mythOS',
+     image:'mythos1.png',
+     description:"innovative web app to explore Greek Mythology",
+     link1:["https://github.com/milesjamz/mythosfrontend", "front end"],
+     link2:["https://github.com/milesjamz/mythosbackend", "API"],
+     techUsed:["React", "Rails", "d3", "Google Maps API", "JWT Auth", "bCrypt"]
+    },{name:'brew review',
+    image:'brewrev1.png',
+    description:"full stack web app for users to review breweries",
+    link1:["https://github.com/milesjamz/mod4frontend", "front end"],
+    link2:["https://github.com/adisagir/BreweriesUSA-backend", "API"],
+    techUsed:["React", "Rails", "External APIs", "JWT Auth", "bCrypt"]
+    },{name:'BiblioTecha',
+    image:'bibliotecha1.png',
+    description:"Vanilla JS app that allows you to create virtual libraries and books",
+    link1:["https://github.com/milesjamz/bibliotecha", "front end"],
+    link2:["https://github.com/milesjamz/bibliotecha_backend", "API"],
+    techUsed:["Vanilla JS", "Rails"]
+    },{name:'HypochondriAPP',
+    image:'hypochond1.png',
+    description:"Ruby Driven CLI game that allows you to get sick and be healed",
+    link1:["https://github.com/milesjamz/bibliotecha", "CLI App"],
+    techUsed:["Ruby", "Faker", "TTY"]
+    }
+  ]
+
+  const makeTheProjects = data => {
+    return data.map((proj, index) => <ProjectContainer key={index} project={proj}/> )
+  }
 
   return (
     <div className="projects">
@@ -14,24 +42,8 @@ function Projects() {
 Here are some of my projects:
 </p>
 <ul>
-  <li><img src={Mythos} alt='mythos' height="18%" width="18%"/>
-  <strong>mythOS</strong> - innovative web app to explore Greek Mythology <GithubBtn 
-  text="front end" link="https://github.com/milesjamz/mythosfrontend"/> - 
-  <GithubBtn 
-  text="API" link="https://github.com/milesjamz/mythosbackend"/></li>
-  <li><img src={BrewRev} alt='brew review' height="18%" width="18%"/>
-  <strong>brew review</strong> - <GithubBtn 
-  text="front end" link="https://github.com/milesjamz/mod4frontend"/> - 
-  <GithubBtn 
-  text="API" link="https://github.com/adisagir/BreweriesUSA-backend"/></li>
-  <li><img src={Biblio} alt='bibliotecha' height="18%" width="18%"/>
-  <strong>bibliotecha</strong> - <GithubBtn 
-  text='front end' link="https://github.com/milesjamz/bibliotecha"/> - 
-  <GithubBtn 
-  text="API" link="https://github.com/milesjamz/bibliotecha_backend"/></li>
-  <li><img src={Hypo} alt='hypochondriapp' height="18%" width="18%"/>
-  <strong>hypochondriapp</strong> - <GithubBtn 
-  text='CLI App' link='https://github.com/milesjamz/hypochondriapp'/></li>
+{makeTheProjects(projects)}
+
 </ul>
     </div>
   );

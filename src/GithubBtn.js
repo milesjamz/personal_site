@@ -1,9 +1,15 @@
 import React from 'react';
 
-function githubBtn(props) {
-  return (
-    <button><a href={props.link} target="_blank">{props.text}</a></button>
-  );
+function GithubBtn(props) {
+
+return( 
+  <div className="githubBtn">
+<button><a href={props.link} 
+           target='_blank' 
+           rel="noopener noreferrer"
+           > {props.text} </a> </button>
+  </div>
+  )
 }
 
-export default githubBtn;
+export default GithubBtn

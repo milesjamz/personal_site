@@ -94,5 +94,9 @@ text-align:center;
   padding-top:20%;
 }
 
-img{
+.projContainer {
+  background-color:palegreen;
+  color:maroon;
+  border-style:solid;
+  width:50%;
 }
