@@ -15,13 +15,23 @@ Here are some of my projects:
 </p>
 <ul>
   <li><img src={Mythos} alt='mythos' height="18%" width="18%"/>
-  <strong>mythOS</strong> - innovative web app to explore Greek Mythology <GithubBtn link="https://github.com/milesjamz/mythosfrontend"/></li>
+  <strong>mythOS</strong> - innovative web app to explore Greek Mythology <GithubBtn 
+  text="front end" link="https://github.com/milesjamz/mythosfrontend"/> - 
+  <GithubBtn 
+  text="API" link="https://github.com/milesjamz/mythosbackend"/></li>
   <li><img src={BrewRev} alt='brew review' height="18%" width="18%"/>
-  <strong>brew review</strong> - <GithubBtn link="https://github.com/milesjamz/mod4frontend"/></li>
+  <strong>brew review</strong> - <GithubBtn 
+  text="front end" link="https://github.com/milesjamz/mod4frontend"/> - 
+  <GithubBtn 
+  text="API" link="https://github.com/adisagir/BreweriesUSA-backend"/></li>
   <li><img src={Biblio} alt='bibliotecha' height="18%" width="18%"/>
-  <strong>bibliotecha</strong> - <GithubBtn link="https://github.com/milesjamz/bibliotecha"/></li>
+  <strong>bibliotecha</strong> - <GithubBtn 
+  text='front end' link="https://github.com/milesjamz/bibliotecha"/> - 
+  <GithubBtn 
+  text="API" link="https://github.com/milesjamz/bibliotecha_backend"/></li>
   <li><img src={Hypo} alt='hypochondriapp' height="18%" width="18%"/>
-  <strong>hypochondriapp</strong> - <GithubBtn link='https://github.com/milesjamz/hypochondriapp'/></li>
+  <strong>hypochondriapp</strong> - <GithubBtn 
+  text='CLI App' link='https://github.com/milesjamz/hypochondriapp'/></li>
 </ul>
     </div>
   );
