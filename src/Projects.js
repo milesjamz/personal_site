@@ -11,7 +11,7 @@ function Projects() {
      link1:["https://github.com/milesjamz/mythosfrontend", "front end"],
      link2:["https://github.com/milesjamz/mythosbackend", "API"],
      techUsed:["React", "Rails", "d3", "Google Maps API", "JWT Auth", "bCrypt"]
-    },{name:'brew review',
+    },{name:'Brew Review',
     image:'brewrev1.png',
     description:"full stack web app for users to review breweries",
     link1:["https://github.com/milesjamz/mod4frontend", "front end"],
@@ -43,7 +43,6 @@ Here are some of my projects:
 </p>
 <ul>
 {makeTheProjects(projects)}
-
 </ul>
     </div>
   );

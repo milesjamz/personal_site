@@ -65,11 +65,6 @@ text-align:center;
   color:white;
 }
 
-.cv {
-  padding-left:40%;
-  background-color:green;
-}
-
 .etc {
   padding-top:4%;
   margin-left:11%;
@@ -77,17 +72,27 @@ text-align:center;
   border: orchid;
 }
 
-.practice {
-  background-color:#00FF00;
-  color:#fffd55;
-  height:800px;
-  text-align:center;
-  padding-top:20%;
-}
-
 .projContainer {
   background-color:palegreen;
   color:maroon;
   border-style:solid;
   width:50%;
+}
+
+.cv {
+  padding-left:40%;
+  background-color:green;
+  height:60rem;
+  margin-top:-20px;
+}
+
+.cvPdf {
+  float:left;
+  margin-left:-60%;
+}
+
+.graph {
+  float:right;
+  padding-right:30%;
+  height:100000px;
 }
