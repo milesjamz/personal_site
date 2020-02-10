@@ -1,20 +1,16 @@
 import React from 'react';
-import MeHoney from './images/mehoney.jpg'
-function AboutMe() {
 
-  const plee = hmm => {
-    const mySong = new Audio('./Pastry.mp3')
-    mySong.play()
-  }
+function AboutMe() {
 
   return (
     <div className="aboutme">
-      <button onClick={() => plee()} >Play a little summin summin</button><br/>
 <h2>MILES MARILLO</h2>
-I'm just a swell guy in a wonderful world.<br/>
-Ain't my wife a beaut?
+<p>Full stack web developer with a love for telling stories through tech. Experienced in Rails, 
+  JavaScript and React/Redux, with a background in songwriting and recording. My passions include 
+  discovering compelling stories in data, and using technology to enhance, rather than reduce, our 
+  humanity.
+</p>
 <br/><br/>
-      <img src={MeHoney} alt='hehe' height='100%' width='50%' />
     </div>
   );
 }
