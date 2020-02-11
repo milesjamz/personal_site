@@ -17,7 +17,7 @@ function AboutMe() {
 </p>
 <ul>
 Skills
-{skills.map(skill => <li>{skill}</li>)}
+{skills.map((skill, index) => <li key={index}>{skill}</li>)}
 </ul>
 <br/><br/>
 <Graph />

@@ -7,17 +7,13 @@ text-align:center;
   top:0;
   color:red;
   background-color:fuchsia;
+  width:100%;
 }
 
-.navbar button {
-  color:salmon;
-  margin:10px;
-  background-color: pink;
-}
-
-.navbar button:hover {
-  color:darkred;
-  background-color:grey;
+.navContainer {
+  display:inline;
+  white-space:nowrap;
+  overflow:hidden;
 }
 
 .body {
@@ -62,7 +58,6 @@ text-align:center;
 .cv {
   background-color:green;
   height:1000px;
-  /* margin-top:-20px; */
 }
 
 .cvPdf {
