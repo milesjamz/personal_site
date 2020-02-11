@@ -38,15 +38,45 @@ text-align:center;
   height:800px;
 }
 
-.aboutme p {
-  color:gold;
-  width:30%;
+.aboutContainer {
+  display: flex;
+  flex-flow:column wrap;
   float:left;
+  /* align-items:stretch; */
+  height:600px;
+  justify-content: center;
+  align-items: center;
 }
 
-.aboutme ul {
+#blurb {
+  color:gold;
+  width:30%;
+  /* border:solid; */
+  text-align:center;
+}
+
+#socialLinks {
+  /* border:solid; */
+  width:20%;
+  height:7%;
+  width:17%;
+  text-align:center;
+}
+
+#skills {
   float:left;
   color:orange;
+  /* border:solid; */
+  width:7%;
+  height:38%;
+}
+
+.graph {
+  float:right;
+  margin-top:100px;
+  border:solid;
+  width:21%;
+  align:center;
 }
 
 .projects {
@@ -70,9 +100,4 @@ text-align:center;
 .cvPdf {
   float:left;
   padding-left:10%;
-}
-
-.graph {
-  float:right;
-  padding-right:10%;
 }

@@ -27,7 +27,7 @@ function Graph() {
                 meta: { color: 'navy' }
               },
             ]}
-            size={500}
+            size={300}
           />
     </div>
   );
