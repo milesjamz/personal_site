@@ -11,7 +11,6 @@ const showTechs = techs =>{
 
 return(
 <div className="projContainer">
-{console.log(props.project)}
     <li>
         <img src={require(`./images/${props.project.image}`)} alt={props.project.name} height="18%" width="18%"/>
         <strong>{props.project.name}</strong> - {props.project.description} 

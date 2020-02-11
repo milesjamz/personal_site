@@ -37,7 +37,7 @@ function Projects() {
 
   return (
     <div className="projects">
-      <h1> P R O J E C T S</h1>
+      P R O J E C T S
       <p>
 Here are some of my projects:
 </p>
