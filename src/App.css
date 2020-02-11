@@ -8,12 +8,19 @@ text-align:center;
   color:red;
   background-color:fuchsia;
   width:100%;
+  text-align:center;
+  height:1.5rem;
 }
 
 .navContainer {
   display:inline;
   white-space:nowrap;
   overflow:hidden;
+  float:right;
+}
+
+.radioButton {
+  display:inline-block;
 }
 
 .body {

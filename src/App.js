@@ -14,10 +14,23 @@ import {
 } from "react-router-dom";
 
 
-function App() {
+class App extends React.Component {
+
+  state={
+    colorMode:''
+  }
+
+  handleOnChange = (e) => {
+    console.log('heeheehee', e.target.value)
+    this.setState({ colorMode: e.target.value })
+  }
+
+  render() {
+
   return (
     <div className="app">
-    <NavBar />
+    <NavBar onChange={this.handleOnChange}
+            toggle={this.state.colorMode}        />
         <Switch>
           <Route exact path="/">
             <Body />
@@ -36,7 +49,7 @@ function App() {
           </Route>
         </Switch>
     </div>
-  );
+    );
+  }
 }
-
 export default App;
