@@ -1,18 +1,19 @@
 import React from 'react';
-import GithubBtn from './GithubBtn'
-import TechBtn from './TechButton'
+import GithubBtn from './components/GithubBtn'
+import TechBtn from './components/TechButton'
 
 function ProjectContainer(props) {
 
 const showTechs = techs =>{
+    console.log(props)
     return techs.map((tech, index) => <TechBtn key={index} name={tech} /> )
 }
 
 
 return(
-<div className="projContainer">
+<div className="projContainer" >
     <li>
-        <img src={require(`./images/${props.project.image}`)} alt={props.project.name} height="18%" width="18%"/>
+        <img src={require(`./images/${props.project.image}`)} alt={props.project.name} height="15%" width="15%"/>
         <strong>{props.project.name}</strong> - {props.project.description} 
         <GithubBtn text={props.project.link1[1]} 
                    link={props.project.link1[0]}/>

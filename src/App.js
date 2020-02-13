@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NavBar from './NavBar'
+import NavBar from './components/NavBar'
 import Body from './Body'
 import AboutMe from './AboutMe'
 import Etc from './Etc'

@@ -1,8 +1,4 @@
 import React from 'react';
-import Graph from './Graph'
-import {
-  Link
-} from "react-router-dom";
 
 function AboutMe() {
 
@@ -13,18 +9,20 @@ function AboutMe() {
   return (
     <div className="aboutme">
 <div className="aboutContainer">
+<strong>About Me</strong>
 <p id="blurb">{bioBlurb}</p>
+<ul id="skills">
+<strong>Skills</strong>
+<p>{skills.map((skill, index) => <li key={index}>{skill}</li>)}</p>
+</ul><br/>
 <div id="socialLinks">
+<strong>Links:</strong><br/>
 <a href="http://www.linkedin.com/in/milesjamz" target="_blank" rel="noopener noreferrer">linkedin</a>
 <br />
 <a href="http://www.github.com/milesjamz" target="_blank" rel="noopener noreferrer">github</a>
 </div>
-<ul id="skills">
-<strong>Skills</strong>
-{skills.map((skill, index) => <li key={index}>{skill}</li>)}
-</ul>
 <br/><br/>
-<Graph />
+
     </div>
   </div>
   );

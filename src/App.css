@@ -1,15 +1,41 @@
+* {
+  font-family:futura;
+}
+
 ul {
   list-style-type: none;
+}
+
+a {
+  color:blue;
+}
+
+.body {
+  background-color:linen;
+  height:800px;
+  text-align:center;
+  padding-top:10%;
+}
+
+#nameTitle {
+  color:black;
 }
 
 .navbar {
 text-align:center;
   top:0;
-  color:red;
-  background-color:fuchsia;
+  color:white;
+  background-color:grey;
   width:100%;
   text-align:center;
-  height:1.5rem;
+  height:2.5rem;
+  border-style: solid;
+  border-color:black;
+  padding:4px
+}
+
+.navbar a {
+  color:white;
 }
 
 .navContainer {
@@ -23,81 +49,113 @@ text-align:center;
   display:inline-block;
 }
 
-.body {
-  color:blue;
-  padding-top:4%;
-  text-align:center;
-  background-color:forestgreen;
-  height:800px;
-  font-family:futura;
-}
-
 .aboutme {
   color:#FFF6EC;
-  background-color:#228b22;
+  background-color:linen;
   height:800px;
 }
 
 .aboutContainer {
   display: flex;
   flex-flow:column wrap;
-  float:left;
-  /* align-items:stretch; */
   height:600px;
+  width:1000px;
+  padding-left:200px;
   justify-content: center;
   align-items: center;
+  /* border:solid; */
+
+}
+
+.aboutContainer strong {
+  color:red;
+}
+
+.aboutContainer a {
+color:black;
+font-style:italic;
 }
 
 #blurb {
-  color:gold;
+  color:black;
   width:30%;
-  /* border:solid; */
   text-align:center;
+  border-style: solid;
+  border-color: darkslateblue;
+  background-color:white;
+  box-shadow: 10px 10px darkgrey;
 }
 
 #socialLinks {
-  /* border:solid; */
   width:20%;
-  height:7%;
-  width:17%;
+  height:12%;
+  color:black;
   text-align:center;
+  border-style: solid;
+  border-color: darkslateblue;
+  background-color:white;
+  box-shadow: 10px 10px darkgrey;
 }
 
 #skills {
   float:left;
-  color:orange;
-  /* border:solid; */
-  width:7%;
-  height:38%;
+  color:black;
+  width:14%;
+  height:46%;
+  border-style: solid;
+  border-color: darkslateblue;
+  background-color:white;
+  box-shadow: 10px 10px darkgrey;
 }
 
 .graph {
   float:right;
   margin-top:100px;
-  border:solid;
+  /* border:solid; */
   width:21%;
   align:center;
 }
 
 .projects {
+  background-color:linen;
+  color:black;
+  text-align:center;
+  height:700px;
   padding-left:5%;
-  background-color:forestgreen;
-  color:white;
 }
 
 .projContainer {
-  background-color:palegreen;
-  color:maroon;
+  background-color:rgb(24, 124, 124);
+  color:rgb(0, 29, 32);
   border-style:solid;
   width:50%;
+  margin:5px;
+  box-shadow: 10px 10px darkgrey;
+}
+
+.projContainer:nth-child(even) {
+  margin-left:40%;
+  background-color:orange;
+}
+
+.projContainer img {
+  transition:transform .25s ease;
+}
+
+.projContainer img:hover {
+  -webkit-transform:scale(5.5); /* or some other value */
+  transform:scale(5.5);
 }
 
 .cv {
-  background-color:green;
-  height:1000px;
+  background-color:linen;
+  height:800px;
 }
 
 .cvPdf {
-  float:left;
-  padding-left:10%;
+  padding-left:30%;
+}
+
+.menuLinks {
+  text-align: center;
 }

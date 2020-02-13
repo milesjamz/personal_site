@@ -24,15 +24,12 @@ const makeTheButtons = seasons => {
 
   return (
     <div className="navbar">
-
-    {console.log(props.toggle)}
-    <Link to='/' ><span style={{color:'red'}}>* * m i l e s  - = - m a r i l l o  * *</span></Link>        
-      <Link to='/about'> <span style={{color:'yellow'}}>A</span> bout Me </Link> || 
+    <Link to='/' ><span id="nameTitle">- = m i l e s / | \ m a r i l l o = -</span></Link> 
+<br/>       
+      <div className='menuLinks'><Link to='/about'> <span style={{color:'yellow'}}>A</span> bout Me </Link> || 
       <Link to='/projects'> <span style={{color:'yellow'}}>P</span> rojects </Link> ||
       <Link to='/cv'>  <span style={{color:'yellow'}}>C</span> V </Link>
-      <div className="navContainer">
-{makeTheButtons(options)}
-        </div>
+      </div>
         </div>
   );
 }

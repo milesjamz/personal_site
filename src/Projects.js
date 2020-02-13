@@ -32,15 +32,14 @@ function Projects() {
   ]
 
   const makeTheProjects = data => {
-    return data.map((proj, index) => <ProjectContainer key={index} project={proj}/> )
+    return data.map((proj, index) => <ProjectContainer key={index} 
+                                                       project={proj}
+                                                       numbah={index} /> )
   }
 
   return (
     <div className="projects">
-      P R O J E C T S
-      <p>
-Here are some of my projects:
-</p>
+      <strong>P R O J E C T S</strong>
 <ul>
 {makeTheProjects(projects)}
 </ul>
