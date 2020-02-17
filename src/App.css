@@ -1,5 +1,5 @@
 * {
-  font-family:futura;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul {
@@ -59,12 +59,10 @@ text-align:center;
   display: flex;
   flex-flow:column wrap;
   height:600px;
-  width:1000px;
+  width:900px;
   padding-left:200px;
   justify-content: center;
   align-items: center;
-  /* border:solid; */
-
 }
 
 .aboutContainer strong {
@@ -98,7 +96,6 @@ font-style:italic;
 }
 
 #skills {
-  float:left;
   color:black;
   width:14%;
   height:46%;
@@ -108,12 +105,13 @@ font-style:italic;
   box-shadow: 10px 10px darkgrey;
 }
 
-.graph {
-  float:right;
-  margin-top:100px;
-  /* border:solid; */
-  width:21%;
-  align:center;
+#graphBox {
+  margin:40px;
+  width:35%;
+  border-style: solid;
+  border-color: darkslateblue;
+  background-color:white;
+  box-shadow: 10px 10px darkgrey;
 }
 
 .projects {

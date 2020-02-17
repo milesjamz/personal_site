@@ -1,4 +1,5 @@
 import React from 'react';
+import Graph from './components/Graph';
 
 function AboutMe() {
 
@@ -15,6 +16,7 @@ function AboutMe() {
 <strong>Skills</strong>
 <p>{skills.map((skill, index) => <li key={index}>{skill}</li>)}</p>
 </ul><br/>
+<Graph />
 <div id="socialLinks">
 <strong>Links:</strong><br/>
 <a href="http://www.linkedin.com/in/milesjamz" target="_blank" rel="noopener noreferrer">linkedin</a>

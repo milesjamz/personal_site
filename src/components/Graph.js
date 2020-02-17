@@ -4,15 +4,17 @@ import RadarChart from 'react-svg-radar-chart';
 function Graph() {
 
   return (
-    <div className="graph">
+    <div id="graphBox">
         <RadarChart
             captions={{
               // columns
               html: 'HTML',
               css: 'CSS',
-              js: 'Vanilla JavaScript',
+              js: 'JavaScript',
               react: 'React/Redux',
-              ruby: 'Ruby + Rails'
+              ruby: 'Ruby + Rails',
+              bash: 'git/bash',
+              postgresql: 'PostgreSQL'
             }}
             data={[
               // data
@@ -22,7 +24,9 @@ function Graph() {
                   css: .77,
                   js: 0.85,
                   react: 0.99,
-                  ruby: 0.90
+                  ruby: 0.90,
+                  bash: .88,
+                  postgresql: 0.78
                 },
                 meta: { color: 'navy' }
               },

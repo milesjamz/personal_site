@@ -8,7 +8,6 @@ import CV from './Cv'
 import Projects from './Projects'
 
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
