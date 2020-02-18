@@ -14,7 +14,8 @@ return(
 <div className="projContainer" >
     <li>
         <img src={require(`./images/${props.project.image}`)} alt={props.project.name} height="15%" width="15%"/>
-        <strong>{props.project.name}</strong> - {props.project.description} 
+        <br />
+        <strong>{props.project.name}</strong> - <i>{props.project.description}</i>
         <GithubBtn text={props.project.link1[1]} 
                    link={props.project.link1[0]}/>
         {props.project.link2 ?

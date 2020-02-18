@@ -7,25 +7,25 @@ function Projects() {
   const projects = [
     {name:'mythOS',
      image:'mythos1.png',
-     description:"innovative web app to explore Greek Mythology",
+     description:"Explore Greek mythology using maps and data visualization",
      link1:["https://github.com/milesjamz/mythosfrontend", "front end"],
      link2:["https://github.com/milesjamz/mythosbackend", "API"],
      techUsed:["React", "Rails", "d3", "Google Maps API", "JWT Auth", "bCrypt"]
     },{name:'Brew Review',
     image:'brewrev1.png',
-    description:"full stack web app for users to review breweries",
+    description:"Discover, rate, and review American breweries",
     link1:["https://github.com/milesjamz/mod4frontend", "front end"],
     link2:["https://github.com/adisagir/BreweriesUSA-backend", "API"],
     techUsed:["React", "Rails", "External APIs", "JWT Auth", "bCrypt"]
     },{name:'BiblioTecha',
     image:'bibliotecha1.png',
-    description:"Vanilla JS app that allows you to create virtual libraries and books",
+    description:"Create, stock, and save your own illustrated personal library",
     link1:["https://github.com/milesjamz/bibliotecha", "front end"],
     link2:["https://github.com/milesjamz/bibliotecha_backend", "API"],
     techUsed:["Vanilla JS", "Rails"]
     },{name:'HypochondriAPP',
     image:'hypochond1.png',
-    description:"Ruby Driven CLI game that allows you to get sick and be healed",
+    description:"Explore medical data analytics in humorous, text-driven, gamified setting",
     link1:["https://github.com/milesjamz/bibliotecha", "CLI App"],
     techUsed:["Ruby", "Faker", "TTY"]
     }
