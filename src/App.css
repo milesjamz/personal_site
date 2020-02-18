@@ -12,7 +12,7 @@ a {
 
 .body {
   background-color:linen;
-  height:800px;
+  height:100vw;
   text-align:center;
   padding-top:10%;
 }
@@ -52,7 +52,7 @@ text-align:center;
 .aboutme {
   color:#FFF6EC;
   background-color:linen;
-  height:800px;
+  height:100%;
 }
 
 .aboutContainer {
@@ -118,7 +118,7 @@ font-style:italic;
   background-color:linen;
   color:black;
   text-align:center;
-  height:700px;
+  height:100vw;
   padding-left:5%;
 }
 
@@ -129,10 +129,11 @@ font-style:italic;
   width:50%;
   margin:5px;
   box-shadow: 10px 10px darkgrey;
+  margin-left:10%;
 }
 
 .projContainer:nth-child(even) {
-  margin-left:40%;
+  margin-left:30%;
   background-color:orange;
 }
 
@@ -147,7 +148,7 @@ font-style:italic;
 
 .cv {
   background-color:linen;
-  height:800px;
+  height:100vw;
 }
 
 .cvPdf {

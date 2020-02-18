@@ -3,6 +3,34 @@ import RadarChart from 'react-svg-radar-chart';
 
 function Graph() {
 
+
+  const defaultOptions = {
+    axes: true, // show axes?
+    scales: 3, // show scale circles?
+    captionMargin: 10,
+    dots: false, // show dots?
+    zoomDistance: 1.1, // where on the axes are the captions?
+    setViewBox: (options) => `-${options.captionMargin} 0 ${options.size + options.captionMargin * 2} ${options.size}`, // custom viewBox ?
+    axisProps: () => ({ className: 'axis' }),
+    scaleProps: () => ({ className: 'scale', fill: 'none' }),
+    shapeProps: () => ({ className: 'shape' }),
+    captionProps: () => ({
+      className: 'caption',
+      textAnchor: 'middle',
+      fontSize: 9,
+      fontFamily: 'sans-serif'
+    }),
+    dotProps: () => ({
+      className: 'dot',
+      mouseEnter: (dot) => { console.log(dot) },
+      mouseLeave: (dot) => { console.log(dot) }
+    })
+  }
+
+
+
+
+
   return (
     <div id="graphBox">
         <RadarChart
@@ -20,6 +48,21 @@ function Graph() {
               // data
               {
                 data: {
+                  html: .99,
+                  css: 1.0,
+                  js: 1.0,
+                  react: 1.0,
+                  ruby: 1.0,
+                  bash: 1.0,
+                  postgresql: 1.0
+                },
+                meta: { color: 'green' }
+              },
+            ]}
+            data={[
+              // data
+              {
+                data: {
                   html: 0.9,
                   css: .77,
                   js: 0.85,
@@ -32,6 +75,7 @@ function Graph() {
               },
             ]}
             size={300}
+            options={defaultOptions}
           />
     </div>
   );
