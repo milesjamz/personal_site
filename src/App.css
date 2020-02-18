@@ -55,10 +55,7 @@ text-align:center;
 
 .aboutContainer {
   display: flex;
-  flex-flow:column wrap;
-  /* height:600px;
-  width:900px; */
-  /* padding-left:200px; */
+  flex-flow:column nowrap;
   justify-content: center;
   align-items: center;
 }
@@ -74,57 +71,54 @@ font-style:italic;
 
 #blurb {
   color:black;
-  width:75%;
+  width:50vh;
   height:25%;
   text-align:center;
-  border-style: solid;
-  border-color: darkslateblue;
+  /* border-style: solid; */
+  /* border-color: darkslateblue;
   background-color:white;
-  box-shadow: 10px 10px darkgrey;
+  box-shadow: 10px 10px darkgrey; */
 }
 
 #socialLinks {
-  width:75%;
+  width:50vh;
   height:25%;
   color:black;
   text-align:center;
-  border-style: solid;
-  border-color: darkslateblue;
+  /* border-style: solid; */
+  /* border-color: darkslateblue;
   background-color:white;
-  box-shadow: 10px 10px darkgrey;
+  box-shadow: 10px 10px darkgrey; */
 }
 
 #skills {
   color:black;
-  width:75%;
+  width:50vh;
   height:25%;
   text-align:center;
-  border-style: solid;
-  border-color: darkslateblue;
+  /* border-style: solid; */
+  /* border-color: darkslateblue;
   background-color:white;
-  box-shadow: 10px 10px darkgrey;
+  box-shadow: 10px 10px darkgrey; */
 }
 
 #graphBox {
-  margin:40px;
-  width:75%;
+  width:50vh;
   text-align:center;
-  border-style: solid;
-  border-color: darkslateblue;
+  /* border-style: solid; */
+  /* border-color: darkslateblue;
   background-color:white;
-  box-shadow: 10px 10px darkgrey;
-}
-
-.projects {
+  box-shadow: 10px 10px darkgrey; */
 }
 
 .projContainer {
   background-color:rgb(24, 124, 124);
   color:rgb(0, 29, 32);
-  border-style:solid;
-  width:95%;
-  height:20vh;
-  margin:3.5vh;
+  /* border-style:solid; */
+  width:50vh;
+  height:25vh;
+  margin-left:-2vh;
+  /* margin:3.5vh; */
   box-shadow: 10px 10px darkgrey;
 }
 
@@ -137,7 +131,7 @@ font-style:italic;
   transition:transform .25s ease;
   float:left;
   padding-left:15vh;
-  height:15vh;
+  height:10vh;
   width:20vh;
 }
 
@@ -148,10 +142,7 @@ font-style:italic;
 
 .projText {
   float:right;
-text-align:right;
-}
-
-.cv {
+/* text-align:right; */
 }
 
 .cvPdf {
