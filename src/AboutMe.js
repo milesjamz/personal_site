@@ -10,8 +10,10 @@ function AboutMe() {
   return (
     <div className="aboutme">
 <div className="aboutContainer">
+<p id="blurb">
 <strong>About Me</strong>
-<p id="blurb">{bioBlurb}</p>
+<br /><br />
+{bioBlurb}</p>
 <ul id="skills">
 <strong>Skills</strong>
 <p>{skills.map((skill, index) => <li key={index}>{skill}</li>)}</p>

@@ -2,10 +2,8 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+body {
+  background: linen;
 }
 
 ul {
@@ -18,7 +16,7 @@ a {
 
 .body {
   background-color:linen;
-  height:100vw;
+  /* height:100vw; */
   text-align:center;
   padding-top:10%;
 }
@@ -56,9 +54,6 @@ text-align:center;
 }
 
 .aboutme {
-  color:#FFF6EC;
-  background-color:linen;
-  height:100%;
 }
 
 .aboutContainer {
@@ -121,10 +116,8 @@ font-style:italic;
 }
 
 .projects {
-  background-color:linen;
   color:black;
   text-align:center;
-  height:100vw;
   padding-left:5%;
 }
 
@@ -153,8 +146,6 @@ font-style:italic;
 }
 
 .cv {
-  background-color:linen;
-  height:100vw;
 }
 
 .cvPdf {
