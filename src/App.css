@@ -65,50 +65,30 @@ text-align:center;
 }
 
 .aboutContainer a {
-color:black;
-font-style:italic;
+  color:black;
+  font-style:italic;
 }
 
 #blurb {
-  color:black;
   width:50vh;
   height:25%;
+  /* text-align:center; */
+}
+
+#blurb strong {
   text-align:center;
-  /* border-style: solid; */
-  /* border-color: darkslateblue;
-  background-color:white;
-  box-shadow: 10px 10px darkgrey; */
 }
 
 #socialLinks {
   width:50vh;
-  height:25%;
-  color:black;
+  height:20vh;
   text-align:center;
-  /* border-style: solid; */
-  /* border-color: darkslateblue;
-  background-color:white;
-  box-shadow: 10px 10px darkgrey; */
 }
 
 #skills {
-  color:black;
   width:50vh;
-  height:25%;
-  text-align:center;
-  /* border-style: solid; */
-  /* border-color: darkslateblue;
-  background-color:white;
-  box-shadow: 10px 10px darkgrey; */
-}
-
-#graphBox {
-  width:50vh;
-  text-align:center;
-  /* border-style: solid; */
-  /* border-color: darkslateblue;
-  background-color:white;
-  box-shadow: 10px 10px darkgrey; */
+  height:45vh;
+  /* text-align:center; */
 }
 
 .projContainer {
