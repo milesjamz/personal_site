@@ -27,10 +27,6 @@ function Graph() {
     })
   }
 
-
-
-
-
   return (
     <div id="graphBox">
         <RadarChart
