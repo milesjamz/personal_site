@@ -116,9 +116,6 @@ font-style:italic;
 }
 
 .projects {
-  color:black;
-  text-align:center;
-  padding-left:5%;
 }
 
 .projContainer {
@@ -146,6 +143,11 @@ font-style:italic;
 .projContainer img:hover {
   -webkit-transform:scale(5.5); /* or some other value */
   transform:scale(3.5);
+}
+
+.projText {
+  float:right;
+text-align:right;
 }
 
 .cv {
