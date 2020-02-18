@@ -39,7 +39,6 @@ function Projects() {
 
   return (
     <div className="projects">
-      <strong>P R O J E C T S</strong>
 <ul>
 {makeTheProjects(projects)}
 </ul>
