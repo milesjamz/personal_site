@@ -53,15 +53,12 @@ text-align:center;
   display:inline-block;
 }
 
-.aboutme {
-}
-
 .aboutContainer {
   display: flex;
   flex-flow:column wrap;
-  height:600px;
-  width:900px;
-  padding-left:200px;
+  /* height:600px;
+  width:900px; */
+  /* padding-left:200px; */
   justify-content: center;
   align-items: center;
 }
@@ -78,6 +75,7 @@ font-style:italic;
 #blurb {
   color:black;
   width:30%;
+  height:25%;
   text-align:center;
   border-style: solid;
   border-color: darkslateblue;
@@ -86,8 +84,8 @@ font-style:italic;
 }
 
 #socialLinks {
-  width:20%;
-  height:12%;
+  width:30%;
+  height:25%;
   color:black;
   text-align:center;
   border-style: solid;
@@ -98,8 +96,8 @@ font-style:italic;
 
 #skills {
   color:black;
-  width:14%;
-  height:46%;
+  width:30%;
+  height:25%;
   border-style: solid;
   border-color: darkslateblue;
   background-color:white;
@@ -108,7 +106,7 @@ font-style:italic;
 
 #graphBox {
   margin:40px;
-  width:35%;
+  width:30%;
   border-style: solid;
   border-color: darkslateblue;
   background-color:white;
