@@ -74,7 +74,7 @@ font-style:italic;
 
 #blurb {
   color:black;
-  width:30%;
+  width:50%;
   height:25%;
   text-align:center;
   border-style: solid;
@@ -84,7 +84,7 @@ font-style:italic;
 }
 
 #socialLinks {
-  width:30%;
+  width:50%;
   height:25%;
   color:black;
   text-align:center;
@@ -96,8 +96,9 @@ font-style:italic;
 
 #skills {
   color:black;
-  width:30%;
+  width:50%;
   height:25%;
+  text-align:center;
   border-style: solid;
   border-color: darkslateblue;
   background-color:white;
@@ -106,7 +107,8 @@ font-style:italic;
 
 #graphBox {
   margin:40px;
-  width:30%;
+  width:50%;
+  text-align:center;
   border-style: solid;
   border-color: darkslateblue;
   background-color:white;
