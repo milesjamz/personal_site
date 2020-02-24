@@ -24,7 +24,7 @@ function NavBar(props) {
 
   return (
     <div className="navbar">
-    <Link to='/' ><span id="nameTitle">- = m i l e s / | \ m a r i l l o = -</span></Link> 
+    <Link to='/' ><span id="nameTitle">- = M i l e s -=- M a r i l l o = -</span></Link> 
 <br/>       
       <div className='menuLinks'><Link to='/about'> <span style={{color:'yellow'}}>A</span> bout Me </Link> || 
       <Link to='/projects'> <span style={{color:'yellow'}}>P</span> rojects </Link> ||
