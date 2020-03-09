@@ -6,6 +6,7 @@ import AboutMe from './AboutMe'
 import Etc from './Etc'
 import CV from './Cv'
 import Projects from './Projects'
+import Video from './Video'
 
 import {
   Switch,
@@ -45,6 +46,15 @@ class App extends React.Component {
           </Route>
           <Route path="/etc">
             <Etc />
+            </Route>
+          <Route path="/mythos">
+            <Video film={'mythostest.mov'} />
+          </Route>
+          <Route path="/hypochondriapp">
+            <Video film={'hypochondemo.mov'} />
+          </Route>
+          <Route path="/bibliotecha">
+            <Video film={'bibliotechatest.mov'} />
           </Route>
         </Switch>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import GithubBtn from './components/GithubBtn'
 import TechBtn from './components/TechButton'
+import {Link} from "react-router-dom";
 
 function ProjectContainer(props) {
 
@@ -21,6 +22,7 @@ return(
         {props.project.link2 ?
         <GithubBtn text={props.project.link2[1]} 
         link={props.project.link2[0]}/> : null}
+        <Link to={props.project.videoLink[0]}> <button>Video</button> </Link><br/>
         {showTechs(props.project.techUsed)}
         </div>
 </div>
