@@ -21,12 +21,14 @@ class Video extends React.Component {
 
   render = () => {
     return (
-      <div>
+      <div className="videoBox">
         <video
           ref="vidRef"
           src={this.props.film}
           type="video/mp4"
-          size="80%"
+        //   width="1080"
+        //   height="675"
+          className="videoScreen"
         />
 
         <div>
