@@ -16,7 +16,6 @@ a {
 
 .body {
   background-color:linen;
-  /* height:100vw; */
   text-align:center;
   padding-top:10%;
 }
@@ -108,16 +107,10 @@ text-align:center;
 }
 
 .projContainer img {
-  transition:transform .25s ease;
   float:left;
   padding-left:15vh;
   height:10vh;
   width:20vh;
-}
-
-.projContainer img:hover {
-  -webkit-transform:scale(5.5); /* or some other value */
-  transform:scale(3.5);
 }
 
 .projText {
