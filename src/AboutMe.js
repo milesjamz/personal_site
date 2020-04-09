@@ -8,9 +8,9 @@ function AboutMe() {
   return (
     <div>
 <div className="aboutContainer">
-<p id="blurb">
+
 <strong>About Me</strong>
-<br /><br />
+<p id="blurb">
 {bioBlurb}</p>
 <strong>Skills</strong>
 <ul id="skills">
