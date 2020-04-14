@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div>
 <div className="aboutContainer">
-
+<br /><br />
 <strong>About Me</strong>
 <p id="blurb">
 {bioBlurb}</p>
