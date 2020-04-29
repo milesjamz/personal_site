@@ -119,8 +119,9 @@ text-align:center;
 
 .cvPdf {
   padding-left:0%;
+  align:center;
   height:99vh;
-  width:58vh;
+  width:77vh;
   overflow:auto;
 }
 
