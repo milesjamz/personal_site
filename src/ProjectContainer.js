@@ -10,7 +10,7 @@ const showTechs = techs =>{
     return techs.map((tech, index) => <TechBtn key={index} name={tech} /> )
 }
 
-console.log(props.project.image)
+console.log(`./images/${props.project.image}`)
 
 return(
 <div className="projContainer" >
