@@ -14,7 +14,7 @@ console.log(`./images/${props.project.image}`)
 
 return(
 <div className="projContainer" >
-        <img src={require(`./images/${props.project.image}`)} alt={props.project.name} height="15%" width="15%"/>
+        <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/>
         <br />
         <div className="projText" >
         <strong>{props.project.name}</strong> - <i>{props.project.description}</i>
