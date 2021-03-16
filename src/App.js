@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   handleOnChange = (e) => {
-    console.log('heeheehee', e.target.value)
+    // console.log('heeheehee', e.target.value)
     this.setState({ colorMode: e.target.value })
   }
 
