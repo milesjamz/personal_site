@@ -12,7 +12,6 @@ handleChangeTwo = e => {
 
 handleSecondSubmit = e => {
 	e.preventDefault()
-	let damn = e
 	alert(this.state.formNameTwo)
 	console.log(this.state.formNameTwo)
 }
