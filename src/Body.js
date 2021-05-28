@@ -3,10 +3,11 @@ import React from 'react';
 function Body() {
   return (
     <div className="body">
-      <strong>-=º¤ W E L C O M E ¤º=-</strong>
+      <h3>-=º¤ W E L C O M E ¤º=-</h3>
       <p>
-        This is the website for Miles Marillo, a full stack software engineer.<br/>
-        I love telling stories, finding connections, and discovering secret narratives in mountains of information.
+        Hey, I'm Miles, a software engineer.<br/>
+        I enjoy building products which help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
+        My interests are data visualization and analysis, intuitive and beautiful user experiences, and music.<br/>
       </p>
     </div>
   );
