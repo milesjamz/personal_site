@@ -27,8 +27,9 @@ ul {
 
 .body {
   /* background-color:linen; */
+      min-width: 320px;
   text-align:center;
-  padding-top:5em;
+  padding-top:3em;
   margin-left:15em;
   margin-right:15em;
 }
@@ -42,9 +43,9 @@ text-align:center;
   top:0;
   position:fixed;
   color:white;
-  background-color:rgb(68, 68, 85);
-  height:5vh;
-  width:100vw;
+  background-color:rgb(72, 115, 145);
+  height:40px;
+  width:100%;
   text-align:center;
   padding:.5em
 }
@@ -99,21 +100,18 @@ text-align:center;
 #skills {
   width:50vh;
   height:45vh;
-  /* text-align:center; */
 }
 
 .projContainer {
   background-color:rgb(24, 124, 124);
   color:rgb(0, 29, 32);
-  text-align:left;
-  width:64vw;
-  height:30vh;
-  margin:2em;
+  margin-left:10%;
+  width:950px;
+  height:200px;
   box-shadow: 10px 10px darkgrey;
 }
 
 .projContainer:nth-child(even) {
-  margin-left:30%;
   background-color:orange;
 }
 
