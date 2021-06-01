@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar'
 import Body from './Body'
-import CV from './Cv'
+// import CV from './Cv'
 import Projects from './Projects'
 import Video from './Video'
 import Resume from './mmarillo2021.pdf'
+import Pic from './images/IMG_0888.jpg'
 
 import {
   Switch,
@@ -33,7 +34,7 @@ class App extends React.Component {
             resume={Resume}        />
         <Switch>
           <Route exact path="/">
-            <Body />
+            <Body pic={Pic}/>
           {/* </Route> */}
           {/* <Route path="/about"> */}
             {/* <AboutMe /> */}
