@@ -4,7 +4,7 @@ function TechButton(props){
     
     
     return (
-<button className="techBtn"> {props.name} </button>
+<span className="techBtn"> {props.name} </span>
     )
 }
 

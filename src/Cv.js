@@ -12,7 +12,7 @@ function CV() {
       onLoadError={console.error}
       >
         <Page pageNumber={1} 
-              scale={.9}
+              scale={.8}
               className="cvPdf"/>
         </Document>
     </div>

@@ -21,14 +21,12 @@ function NavBar(props) {
 // <label key={'label ' + index}>{season[0]}</label></div>
 //   })
 // }
-
   return (
     <div className="navbar">
     <Link to='/' ><span id="nameTitle">- = M i l e s -=- M a r i l l o = -</span></Link> 
 <br/>       
-      <div className='menuLinks'><Link to='/about'> <span style={{color:'yellow'}}>A</span> bout Me </Link> || 
-      <Link to='/projects'> <span style={{color:'yellow'}}>P</span> rojects </Link> ||
-      <Link to='/cv'>  <span style={{color:'yellow'}}>C</span> V </Link>
+      <div className='menuLinks'>
+      <button><a href="https://www.github.com/milesjamz" target='_blank' rel='noopener noreferrer'>Github</a></button> <button><a href="https://www.linkedin.com/in/milesjamz" target='_blank' rel='noopener noreferrer'>LinkedIn</a></button> <button><a href='/static/media/mmarillo2021.999b7930.pdf' download>CV</a></button> <button><a href='mailto:milesjmarillo@gmail.com'>Contact Me</a></button>
       </div>
         </div>
   );

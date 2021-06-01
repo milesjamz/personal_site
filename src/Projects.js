@@ -2,6 +2,16 @@ import React from 'react';
 import ProjectContainer from './ProjectContainer.js'
 
 
+
+// {name:'Brew Review',
+//     image:'brewrev1.png',
+//     description:"Discover, rate, and review American breweries",
+//     link1:["https://github.com/milesjamz/mod4frontend", "front end"],
+//     link2:["https://github.com/adisagir/BreweriesUSA-backend", "API"],
+//     videoLink:['/hypochondriapp', 'mythostest.mov'],
+//     techUsed:["React", "Rails", "External APIs", "JWT Auth", "bCrypt"]
+//     },
+
 function Projects() {
 
   const projects = [
@@ -12,13 +22,6 @@ function Projects() {
      link2:["https://github.com/milesjamz/mythosbackend", "API"],
      videoLink:['/mythos', 'mythostest.mov'],
      techUsed:["React", "Rails", "d3", "Google Maps API", "JWT Auth", "bCrypt"]
-    },{name:'Brew Review',
-    image:'brewrev1.png',
-    description:"Discover, rate, and review American breweries",
-    link1:["https://github.com/milesjamz/mod4frontend", "front end"],
-    link2:["https://github.com/adisagir/BreweriesUSA-backend", "API"],
-    videoLink:['/hypochondriapp', 'mythostest.mov'],
-    techUsed:["React", "Rails", "External APIs", "JWT Auth", "bCrypt"]
     },{name:'BiblioTecha',
     image:'bibliotecha1.png',
     description:"Create, stock, and save your own illustrated personal library",
@@ -39,6 +42,7 @@ function Projects() {
     return data.map((proj, index) => <ProjectContainer key={index} 
                                                        project={proj}
                                                        numbah={index} /> )
+
   }
 
   return (

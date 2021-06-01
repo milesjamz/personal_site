@@ -2,11 +2,10 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar'
 import Body from './Body'
-import AboutMe from './AboutMe'
-import Etc from './Etc'
 import CV from './Cv'
 import Projects from './Projects'
 import Video from './Video'
+import Resume from './mmarillo2021.pdf'
 
 import {
   Switch,
@@ -30,23 +29,25 @@ class App extends React.Component {
   return (
     <div className="app">
     <NavBar onChange={this.handleOnChange}
-            toggle={this.state.colorMode}        />
+            toggle={this.state.colorMode}
+            resume={Resume}        />
         <Switch>
           <Route exact path="/">
             <Body />
-          </Route>
-          <Route path="/about">
-            <AboutMe />
-          </Route>
-          <Route path="/projects">
+          {/* </Route> */}
+          {/* <Route path="/about"> */}
+            {/* <AboutMe /> */}
+          {/* </Route> */}
+          {/* <Route path="/projects"> */}
             <Projects />
+          {/* </Route> */}
           </Route>
-          <Route path="/cv">
+          {/* <Route exact path="/cv">
             <CV />
-          </Route>
-          <Route path="/etc">
-            <Etc />
-            </Route>
+          </Route> */}
+          {/* <Route path="/etc"> */}
+            {/* <Etc /> */}
+            {/* </Route> */}
           <Route path="/mythos">
             <Video film={'mythostest.mov'} />
           </Route>

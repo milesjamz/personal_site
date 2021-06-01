@@ -18,13 +18,14 @@ return(
         <br />
         <div className="projText" >
         <strong>{props.project.name}</strong> - <i>{props.project.description}</i>
+        <p>{showTechs(props.project.techUsed)}</p>
         <GithubBtn text={props.project.link1[1]} 
                    link={props.project.link1[0]}/>
         {props.project.link2 ?
         <GithubBtn text={props.project.link2[1]} 
         link={props.project.link2[0]}/> : null}
         <Link to={props.project.videoLink[0]}> <button>Video</button> </Link><br/>
-        {showTechs(props.project.techUsed)}
+        
         </div>
 </div>
     )
