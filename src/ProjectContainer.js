@@ -11,7 +11,7 @@ const showTechs = techs =>{
     if (index === (techs.length -1)) {
     return <TechBtn key={index} name={tech} /> }
     else { 
-    return <TechBtn key={index} name={tech} />,
+    return <TechBtn key={index} name={tech} />
 
     }
 })
