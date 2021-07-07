@@ -11,8 +11,8 @@ const showTechs = techs =>{
     if (index === (techs.length -1)) {
     return <TechBtn key={index} name={tech} /> }
     else { 
-    return <TechBtn key={index} name={tech} />
-
+    let result = [<TechBtn key={index} name={tech} />,","]
+        return result.join('')
     }
 })
 }
