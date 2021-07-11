@@ -17,6 +17,7 @@ const showTechs = techs =>{
 //     }
 let theButtons = techs.map((tech, index) =>  <TechBtn key={index} name={tech} /> )
 console.log(theButtons)
+return theButtons.join(', ')
 // return techs.map((tech, index) => )
 // })
 }
