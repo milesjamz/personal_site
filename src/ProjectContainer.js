@@ -21,7 +21,7 @@ const showTechs = techs =>{
 // return techs.map((tech, index) => )
 // })
 }
-
+}
 // console.log(`./images/${props.project.image}`)
 
 return(
