@@ -9,7 +9,7 @@ const showTechs = techs =>{
     // console.log(props)
     return techs.map((tech, index) => {
 //     if (index === (techs.length -1)) {
-     <TechBtn key={index} name={tech} /> 
+    return <TechBtn key={index} name={tech} /> 
 //     else { 
 //     let result = [<TechBtn key={index} name={tech} />,","]
 //     console.log(result[0])
@@ -20,7 +20,7 @@ const showTechs = techs =>{
 // return theButtons.join(', ')
 // return techs.map((tech, index) => )
 // })
-}
+})
 }
 // console.log(`./images/${props.project.image}`)
 
