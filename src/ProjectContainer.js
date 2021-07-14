@@ -8,13 +8,14 @@ function ProjectContainer(props) {
 const showTechs = techs =>{
     // console.log(props)
     return techs.map((tech, index) => {
-//     if (index === (techs.length -1)) {
-    return <TechBtn key={index} name={tech} /> 
-//     else { 
-//     let result = [<TechBtn key={index} name={tech} />,","]
+    if (index !== 0) {
+    return ", " + <TechBtn key={index} name={tech} /> 
+    }
+    else { 
+    return <TechBtn key={index} name={tech} />
 //     console.log(result[0])
 //         return result.join(' + ')
-//     }
+    }
 // let theButtons = techs.map((tech, index) =>  <TechBtn key={index} name={tech} /> )
 // console.log(theButtons)
 // return theButtons.join(', ')
