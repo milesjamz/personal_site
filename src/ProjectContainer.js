@@ -7,6 +7,7 @@ function ProjectContainer(props) {
 
 const showTechs = techs =>{
     // console.log(props)
+    console.log(techs)
     return techs.map((tech, index) => {
     if (index !== 0) {
     return ", " + <TechBtn key={index} name={tech} /> 
