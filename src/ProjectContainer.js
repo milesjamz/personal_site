@@ -6,23 +6,13 @@ import {Link} from "react-router-dom";
 function ProjectContainer(props) {
 
 const showTechs = techs =>{
-    // console.log(props)
     console.log(techs)
     return techs.map((tech, index) => {
-    if (index !== 0) {
-    return ", " + <TechBtn key={index} name={tech} /> 
+    if (index !== techs.length-1) {
+    return `${tech}, `
     }
-    else { 
-    return <TechBtn key={index} name={tech} />
-//     console.log(result[0])
-//         return result.join(' + ')
-    }
-// let theButtons = techs.map((tech, index) =>  <TechBtn key={index} name={tech} /> )
-// console.log(theButtons)
-// return theButtons.join(', ')
-// return techs.map((tech, index) => )
-// })
-})
+    else {  return `${tech}` }
+    })
 }
 // console.log(`./images/${props.project.image}`)
 
