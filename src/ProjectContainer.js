@@ -18,7 +18,7 @@ const showTechs = techs =>{
 
 return(
 <div className="projContainer" >
-        <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/>
+        {/* <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/> */}
         <br />
         <div className="projText" >
         <strong >{props.project.name}</strong> <br/> <i>{props.project.description}</i>
