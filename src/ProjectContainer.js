@@ -8,7 +8,12 @@ function ProjectContainer(props) {
 const showTechs = techs =>{
     // console.log(props)
     return techs.map((tech, index) => {
-    return index === (techs.length -1) ? <TechBtn key={index} name={tech} /> : `${<TechBtn key={index} name={tech} />}, `
+    if (index === (techs.length -1)) {
+    return <TechBtn key={index} name={tech} /> }
+    else { 
+    return <TechBtn key={index} name={tech} />,
+
+    }
 })
 }
 
