@@ -107,8 +107,8 @@ text-align:center;
   background-color:rgb(24, 124, 124);
   color:rgb(0, 29, 32);
   margin-left:20vw;
-  width:800px;
-  height:200px;
+  width:1000px;
+  height:700px;
   box-shadow: 10px 10px darkgrey;
 }
 
@@ -147,12 +147,12 @@ text-align:center;
 }
 
 .videoBox {
-  margin-left:20%;
-  margin-top:5%;
+  margin-left:5%;
+  margin-top:10%;
   height:60vh;
   width:60vw;
-  border:solid;
-  border-color:green;
+  /* border:solid; */
+  /* border-color:green; */
 }
 
 .videoScreen {

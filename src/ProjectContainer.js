@@ -28,7 +28,7 @@ return(
         {props.project.link2 ?
         <GithubBtn text={props.project.link2[1]} 
         link={props.project.link2[0]}/> : null}
-        <Video film={props.project.videoLink[0]}/>
+        <Video film={props.project.videoLink[1]}/>
         {/* <Link to={props.project.videoLink[0]}> <button>Video</button> </Link><br/> */}
         
         </div>
