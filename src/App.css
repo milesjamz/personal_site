@@ -127,7 +127,7 @@ text-align:center;
 .projText {
   float:center;
   /* position:fixed; */
-  /* padding-left:10vw; */
+  padding-left:5vw;
   text-align:left;
   padding-right:5em;
 }
@@ -142,12 +142,12 @@ text-align:center;
 }
 
 .menuLinks {
-  text-align: center;
+  /* text-align: center; */
   /* margin-left:40em; */
 }
 
 .videoBox {
-  margin-left:5%;
+  /* margin-left:0%; */
   margin-top:10%;
   height:60vh;
   width:60vw;
