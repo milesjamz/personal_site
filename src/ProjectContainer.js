@@ -1,6 +1,5 @@
 import React from 'react';
 import GithubBtn from './components/GithubBtn'
-import {Link} from "react-router-dom";
 import Video from './Video'
 
 function ProjectContainer(props) {
