@@ -10,7 +10,6 @@ body {
 ,#ffb62f,#abf2ff);
 }
 
-
 button {
   color:white;
   background-color: green;
@@ -27,8 +26,8 @@ ul {
 
 .body {
   /* background-color:linen; */
-      min-width: 320px;
-  text-align:center;
+      /* min-width: 320px; */
+  /* text-align:center; */
   padding-top:5em;
   margin-left:15em;
   margin-right:15em;
