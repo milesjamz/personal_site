@@ -25,12 +25,11 @@ ul {
 }
 
 .body {
-  /* background-color:linen; */
-      /* min-width: 320px; */
+  min-width: 320px;
   /* text-align:center; */
   padding-top:5em;
-  margin-left:15em;
-  margin-right:15em;
+  margin-left:30em;
+  margin-right:20em;
 }
 
 #nameTitle {

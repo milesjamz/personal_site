@@ -33,10 +33,10 @@ class Video extends React.Component {
 
         <div>
           <button onClick={this.playVideo}>
-            Play
+            Play ▶️
           </button>
           <button onClick={this.pauseVideo}>
-            Pause
+            Pause ⏸
           </button>
         </div>
       </div>
