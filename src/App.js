@@ -32,33 +32,9 @@ class App extends React.Component {
     <NavBar onChange={this.handleOnChange}
             toggle={this.state.colorMode}
             resume={Resume}        />
-        <Switch>
-          <Route exact path="/">
             <Body pic={Pic}/>
-          {/* </Route> */}
-          {/* <Route path="/about"> */}
-            {/* <AboutMe /> */}
-          {/* </Route> */}
-          {/* <Route path="/projects"> */}
             <Projects />
-          {/* </Route> */}
-          </Route>
-          {/* <Route exact path="/cv">
-            <CV />
-          </Route> */}
-          {/* <Route path="/etc"> */}
-            {/* <Etc /> */}
-            {/* </Route> */}
-          <Route path="/mythos">
-            <Video film={'mythostest.mov'} />
-          </Route>
-          <Route path="/hypochondriapp">
-            <Video film={'hypochondemo.mov'} />
-          </Route>
-          <Route path="/bibliotecha">
-            <Video film={'bibliotechatest.mov'} />
-          </Route>
-        </Switch>
+
     </div>
     );
   }
