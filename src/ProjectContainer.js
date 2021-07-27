@@ -17,7 +17,7 @@ return(
         <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/>
         <br />
         <div className="projText" >
-        <strong>{props.project.name}</strong> <br/> <i>{props.project.description}</i>
+        <strong style={{align:"left"}}>{props.project.name}</strong> <br/> <i>{props.project.description}</i>
         <p>Tech used:{showTechs(props.project.techUsed)}</p>
         <GithubBtn text={props.project.link1[1]} 
                    link={props.project.link1[0]}/>
