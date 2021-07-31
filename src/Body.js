@@ -5,8 +5,7 @@ function Body(props) {
     <div className="body">
       <h1>Miles Marillo</h1>
       <h3>Fullstack Engineer</h3>
-      <img src={props.pic} height="200em" alt='me, at the computer'></img>
-      <hr></hr>
+      <img src={props.pic} height="400em" alt='me, at the computer'></img>
       <h3>About Me:</h3>
       <p>
       Miles Marillo is a New York based full stack software engineer. <br/>
