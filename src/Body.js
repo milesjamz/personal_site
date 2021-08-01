@@ -8,10 +8,10 @@ function Body(props) {
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
       <h2>ABOUT:</h2>
       <p>
-      Miles Marillo is a New York based full stack software engineer. <br/>
-        He enjoys building products which help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
+      Hey, I'm a New York based full stack software engineer. <br/>
+        I enjoy building products that help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
         His interests are data visualization and analysis, intuitive and beautiful user experiences, and music.<br/>
-        He is available for full-time, part-time, and contract work.
+        I'm available for full-time, part-time, and contract work.
       </p>
       <h2>PROJECTS:</h2>
     </div>
