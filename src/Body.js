@@ -10,8 +10,8 @@ function Body(props) {
       <p>
       Hey, I'm a New York based full stack software engineer. <br/>
         I enjoy building products that help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
-        His interests are data visualization and analysis, intuitive and beautiful user experiences, and music.<br/>
-        I'm available for full-time, part-time, and contract work.
+        My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
+        Available for full-time, part-time, and contract work.
       </p>
       <h2>PROJECTS:</h2>
     </div>
