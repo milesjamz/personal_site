@@ -7,7 +7,10 @@ function ProjectContainer(props) {
 
 const showTechs = techs =>{
     // console.log(props)
-    return techs.map((tech, index) => <TechBtn key={index} name={tech} />  )
+    return techs.map((tech, index) => {
+        console.log(techs.length, index)
+    return index === (techs.length -1) ? <TechBtn key={index} name={tech} /> :  <TechBtn key={index} name={tech} /> + "," 
+})
 }
 
 // console.log(`./images/${props.project.image}`)
