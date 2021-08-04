@@ -7,7 +7,7 @@ function ProjectContainer(props) {
 
 const showTechs = techs =>{
     // console.log(props)
-    return techs.map((tech, index) => <TechBtn key={index} name={tech} /> )
+    return techs.map((tech, index) => <TechBtn key={index} name={tech} />  )
 }
 
 // console.log(`./images/${props.project.image}`)
