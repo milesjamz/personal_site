@@ -25,10 +25,15 @@ ul {
 .body {
   min-width: 320px;
   text-align:center;
-  padding-top:5em;
-  margin-left:27em;
-  margin-right:20em;
+  padding-top:7%;
+  /* margin-left:25vw; */
  } 
+
+ img {
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;    
+ }
  
 /* #nameTitle {
   color:black;
