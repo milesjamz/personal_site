@@ -1,7 +1,4 @@
 import React from 'react';
-import {
-  Link
-} from "react-router-dom";
 
 function NavBar(props) {
 
@@ -23,7 +20,7 @@ function NavBar(props) {
 // }
   return (
     <div className="navbar">
-    <Link to='/' ><span id="nameTitle">&nbsp; - = M i l e s   &nbsp;&nbsp;&nbsp;   M a r i l l o = - &nbsp; </span></Link> 
+    <span id="nameTitle">&nbsp; - = M i l e s   &nbsp;&nbsp;&nbsp;   M a r i l l o = - &nbsp; </span>
 <br/>       
       <div className='menuLinks'>
       <button><a href="https://www.github.com/milesjamz" target='_blank' rel='noopener noreferrer'>Github</a></button> <button><a href="https://www.linkedin.com/in/milesjamz" target='_blank' rel='noopener noreferrer'>LinkedIn</a></button> <button><a href='/static/media/mmarillo2021.999b7930.pdf' download>CV</a></button> <button><a href='mailto:milesjmarillo@gmail.com'>Contact Me</a></button>
