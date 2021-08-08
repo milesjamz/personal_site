@@ -20,7 +20,6 @@ Miles Marillo
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
       <h2 >ABOUT:</h2>
       <p>
-        {art}
       Hey, I'm a New York based full stack software engineer. <br/>
         I enjoy building products that help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
         My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
