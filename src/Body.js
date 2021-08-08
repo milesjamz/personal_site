@@ -6,7 +6,7 @@ function Body(props) {
       <h1>Miles Marillo</h1>
       <h3>Fullstack Engineer</h3>
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
-      <h2>ABOUT:</h2>
+      <h2 >ABOUT:</h2>
       <p>
       Hey, I'm a New York based full stack software engineer. <br/>
         I enjoy building products that help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
