@@ -12,30 +12,30 @@ body {
 
 button {
   color:white;
-  background-color: green;
-  /* margin:1em; */
-}
-
+  background-color:rgb(72, 115, 145);; 
+  margin:1em; 
+} 
+/* 
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
-}
+} */
 
-.body {
-  min-width: 320px;
+/* .body { */
+  /* min-width: 320px; */
   /* text-align:center; */
-  padding-top:5em;
-  margin-left:27em;
-  margin-right:20em;
-}
-
-#nameTitle {
+  /* padding-top:5em; */
+  /* margin-left:27em; */
+  /* margin-right:20em; */
+/* } */
+ 
+/* #nameTitle {
   color:black;
   margin:10em;
-}
+} */
 
 .navbar {
 text-align:center;
@@ -53,7 +53,7 @@ text-align:center;
   color:white;
 }
 
-.navContainer {
+/* .navContainer {
   display:inline;
   white-space:nowrap;
   overflow:hidden;
@@ -61,21 +61,21 @@ text-align:center;
 }
 
 .radioButton {
-  display:inline-block;
-}
+  display:inline-block; */
+/* } */ 
 
-.aboutContainer {
+/* .aboutContainer { */
   /* display: flex; */
   /* flex-flow:column nowrap; */
   /* justify-content: center; */
-  align-items: right;
+  /* align-items: right;
   text-align:right;
-}
-
+} */
+/* 
 .aboutContainer strong {
   color:red;
-}
-
+} */
+/* 
 .aboutContainer a {
   color:black;
   font-style:italic;
@@ -83,10 +83,10 @@ text-align:center;
 
 #blurb {
   width:50vh;
-  height:25%;
+  height:25%; */
   /* text-align:center; */
-}
-
+/* } */
+/* 
 #blurb:strong {
   text-align:center;
 }
@@ -118,42 +118,42 @@ text-align:center;
 .projContainer img {
   float:left;
   padding-left:1vw;
-  height:15vh;
+  height:15vh; */
   /* width:25vw; */
-  margin-top:3em;
-}
+  /* margin-top:3em; */
+/* } */
 
-.projText {
-  float:center;
+/* .projText {
+  float:center; */
   /* position:fixed; */
-  padding-left:5vw;
+  /* padding-left:5vw;
   text-align:left;
   padding-right:5em;
-}
-
+} */
+/* 
 .cvPdf {
   padding-left:30%;
-  margin-top:10%;
+  margin-top:10%; */
   /* align:center; */
-  height:99vh;
+  /* height:99vh;
   width:77vh;
   overflow:auto;
-}
+} */
 
-.videoBox {
+/* .videoBox { */
   /* margin-left:0%; */
-  margin-top:10%;
+  /* margin-top:10%;
   height:60vh;
-  width:60vw;
+  width:60vw; */
   /* border:solid; */
   /* border-color:green; */
-}
+/* } */
 
-.videoScreen {
+/* .videoScreen { */
   /* margin-left:15%; */
   /* margin-top:10%; */
-  height:100%;
-  width:100%;
+  /* height:100%;
+  width:100%; */
   /* border:solid; */
   /* border-color:green; */
-}
+/* } */
