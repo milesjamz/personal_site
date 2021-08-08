@@ -1,9 +1,21 @@
 import React from 'react';
 
 function Body(props) {
+
+  let art = String.raw`
+  __  __ _ _             __  __            _ _ _     
+  |  \/  (_) |           |  \/  |          (_) | |    
+  | \  / |_| | ___  ___  | \  / | __ _ _ __ _| | | ___ 
+  | |\/| | | |/ _ \/ __| | |\/| |/ _\` | '__| | | |/ _ \
+  | |  | | | |  __/\__ \ | |  | | (_| | |  | | | | (_) |
+  |_|  |_|_|_|\___||___/ |_|  |_|\__,_|_|  |_|_|_|\___/ 
+ `
+  console.log(art);  
   return (
     <div className="body">
-      <h1>Miles Marillo</h1>
+      <h1>
+{art}
+ </h1>
       <h3>Fullstack Engineer</h3>
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
       <h2 >ABOUT:</h2>
