@@ -10,7 +10,8 @@ body {
 
 button {
   color:white;
-  background-color:rgb(72, 115, 145);; 
+  /* background-color:rgb(72, 115, 145);;  */
+  background-color:rgb(54, 54, 54);
   /* margin:1em;  */
 } 
 
@@ -35,17 +36,13 @@ ul {
   margin-right: auto;    
  }
  
-#nameTitle {
-  color:black;
-  /* margin:5em; */
-}
-
 .navbar {
 /* text-align:center; */
   top:0;
   position:fixed;
   color:white;
-  background-color:rgb(72, 115, 145);
+  /* background-color:rgb(72, 115, 145); */
+  background-color:black;
   height:30px;
   width:100%;
   padding:1em
@@ -110,8 +107,10 @@ ul {
 }
 /*  */
 .projContainer {
-  background-color:rgb(24, 124, 124);
-  color:rgb(0, 29, 32);
+  /* background-color:rgb(24, 124, 124); */
+  background-color:black;
+  /* color:rgb(0, 29, 32); */
+  color:white;
   margin-left:12vw;
   width:1000px;
   height:700px;
@@ -119,7 +118,9 @@ ul {
 }
 
 .projContainer:nth-child(even) {
-  background-color:orange;
+  /* background-color:orange; */
+  background-color:white;
+  color:black;
 }
 
 /* .projContainer img { */
