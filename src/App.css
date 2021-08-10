@@ -11,7 +11,7 @@ body {
 button {
   color:white;
   background-color:rgb(72, 115, 145);; 
-  margin:1em; 
+  /* margin:1em;  */
 } 
 
 a {
@@ -35,25 +35,28 @@ ul {
   margin-right: auto;    
  }
  
-/* #nameTitle {
+#nameTitle {
   color:black;
-  margin:10em;
-} */
+  /* margin:5em; */
+}
 
 .navbar {
-text-align:center;
+/* text-align:center; */
   top:0;
   position:fixed;
   color:white;
   background-color:rgb(72, 115, 145);
-  height:50px;
+  height:30px;
   width:100%;
-  text-align:center;
-  padding:.5em
+  padding:1em
 }
 
 .navbar a {
   color:white;
+}
+
+.menuLinks {
+  margin-left: calc(100vw - 600px);
 }
 
 /* .navContainer {
