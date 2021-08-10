@@ -26,8 +26,8 @@ class Video extends React.Component {
           ref="vidRef"
           src={this.props.film}
           type="video/mp4"
-        //   width="1080"
-        //   height="675"
+          width="950"
+          height="375"
           className="videoScreen"
         />
 

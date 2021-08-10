@@ -89,8 +89,8 @@ text-align:center;
   width:50vh;
   height:25%; */
   /* text-align:center; */
-/* } */
-/* 
+/* } 
+
 #blurb:strong {
   text-align:center;
 }
@@ -105,7 +105,7 @@ text-align:center;
   width:50vh;
   height:45vh;
 }
-
+/*  */
 .projContainer {
   background-color:rgb(24, 124, 124);
   color:rgb(0, 29, 32);
@@ -119,10 +119,10 @@ text-align:center;
   background-color:orange;
 }
 
-.projContainer img {
-  float:left;
-  padding-left:1vw;
-  height:15vh; */
+/* .projContainer img { */
+  /* float:left; */
+  /* padding-left:1vw; */
+  /* height:15vh;  */
   /* width:25vw; */
   /* margin-top:3em; */
 /* } */
@@ -143,21 +143,3 @@ text-align:center;
   width:77vh;
   overflow:auto;
 } */
-
-/* .videoBox { */
-  /* margin-left:0%; */
-  /* margin-top:10%;
-  height:60vh;
-  width:60vw; */
-  /* border:solid; */
-  /* border-color:green; */
-/* } */
-
-/* .videoScreen { */
-  /* margin-left:15%; */
-  /* margin-top:10%; */
-  /* height:100%;
-  width:100%; */
-  /* border:solid; */
-  /* border-color:green; */
-/* } */
