@@ -8,7 +8,7 @@ body {
   background: #7474bf;
   background: -webkit-gradient(linear,left top,right top,from(#ffb62f),to(#abf2ff));
   background: linear-gradient(90deg,#ffb62f,#abf2ff);
-  font : 23px "Times New Roman", Times;
+  font : 20px "Times New Roman", Times;
   /* margin: 30%; */
 }
 
@@ -38,10 +38,10 @@ ul {
 @media screen and (max-width: 768px) {
   .body{ padding:0;margin-left:100px; text-align:left;display:inline;}
   /* img {margin-left:-10%;} */
-  .projContainer { display:inline;margin-left:5px; width:300px; background-color: black;}
+  .projContainer { margin-left:1%;display:inline;background-color:black;}
   .videoScreen{width:300px;}
   .navbar{height:400px;}
-  .menuLinks{margin-left: calc(100vw - 100px)}
+  .menuLinks{position:fixed;right:1%;top:5%;background-color: black;}
  img {
   display: block;  
   margin-left: auto;  
@@ -51,10 +51,10 @@ ul {
 
 .body {
   min-width: 320px;
-  max-width: 00px;
+  max-width: 900px;
   text-align:center;
-  padding-top:7%;
-  margin-left:12vw;
+  padding-top:5%;
+  margin-left:15vw;
   margin-right:15vw;
  } 
 

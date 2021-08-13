@@ -15,10 +15,10 @@ function Body(props) {
     <div className="body">
 
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
-      Miles Marillo<br/>
-      Full Stack Engineer<br/>
+      <strong>Miles Marillo</strong><br/>
+      <em>Full Stack Engineer</em><br/>
       <p>
-      Hey, I'm a New York based full stack software engineer. <br/>
+      Hey, I'm a New York based full stack software engineer.
         I enjoy building products that help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
         My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
         Available for full-time, part-time, and contract work.
