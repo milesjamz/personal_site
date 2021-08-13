@@ -17,7 +17,6 @@ function Body(props) {
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
       Miles Marillo<br/>
       Fullstack Engineer<br/>
-      ABOUT:
       <p>
       Hey, I'm a New York based full stack software engineer. <br/>
         I enjoy building products that help users lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>

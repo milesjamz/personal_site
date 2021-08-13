@@ -9,6 +9,7 @@ body {
   background: -webkit-gradient(linear,left top,right top,from(#ffb62f),to(#abf2ff));
   background: linear-gradient(90deg,#ffb62f,#abf2ff);
   font : 23px "Times New Roman", Times;
+  /* margin: 30%; */
 }
 
 button {
@@ -29,9 +30,11 @@ ul {
 
 .body {
   min-width: 320px;
+  max-width: 900px;
   text-align:center;
   padding-top:7%;
-  /* margin-left:25vw; */
+  margin-left:12vw;
+  margin-right:15vw;
  } 
 
  img {
