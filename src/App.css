@@ -20,6 +20,7 @@ button {
 
 a {
   text-decoration: none;
+  color:black;
 }
 
 ul {
@@ -122,12 +123,22 @@ ul {
   margin-left:12vw;
   width:1000px;
   height:700px;
-  /* box-shadow: 10px 10px darkgrey; */
+}
+
+.projContainer button {
+  color:white;
+  background-color: darkgrey;
 }
 
 .projContainer:nth-child(even) {
   /* background-color:orange; */
   background-color:white;
+  color:black;
+}
+
+.projContainer:nth-child(even) button {
+  /* background-color:orange; */
+  background-color:lightgray;
   color:black;
 }
 
