@@ -13,6 +13,23 @@ import Pic from './images/IMG_0888.jpg'
 //   Route,
 // } from "react-router-dom";
 
+//  const options = [ ['🌴', 'summer'],['❄️','winter'],['🌻','spring'],['🍂','autumn'] ]   
+
+// const makeTheButtons = seasons => {
+//   return seasons.map((season, index) => {
+//     return <div className="radioButton" key={'radio div ' + index}>
+//              <input type="radio"
+//                     id={index}
+//                     key={'input ' +index}
+//                 className="switch-input"  
+//                 value={season[1]}
+//                 onChange={props.onChange}
+//                 checked={props.toggle === season[1]}
+//   />
+// <label key={'label ' + index}>{season[0]}</label></div>
+//   })
+// }
+
 
 class App extends React.Component {
 

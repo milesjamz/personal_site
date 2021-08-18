@@ -2,22 +2,6 @@ import React from 'react';
 
 function NavBar(props) {
 
-//  const options = [ ['🌴', 'summer'],['❄️','winter'],['🌻','spring'],['🍂','autumn'] ]   
-
-// const makeTheButtons = seasons => {
-//   return seasons.map((season, index) => {
-//     return <div className="radioButton" key={'radio div ' + index}>
-//              <input type="radio"
-//                     id={index}
-//                     key={'input ' +index}
-//                 className="switch-input"  
-//                 value={season[1]}
-//                 onChange={props.onChange}
-//                 checked={props.toggle === season[1]}
-//   />
-// <label key={'label ' + index}>{season[0]}</label></div>
-//   })
-// }
   return (
     <div className="navbar">
     <span id="nameTitle">&nbsp; M i l e s   &nbsp;&nbsp;&nbsp;   M a r i l l o &nbsp; </span>      
