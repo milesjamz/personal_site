@@ -4,6 +4,21 @@
   font: "Times New Roman", Times;
 }
 
+@media only screen and (max-width: 768px) {
+  .body{ padding:0; text-align:left;display:inline;}
+  /* img {margin-left:-10%;} */
+  .projContainer {margin-left:1%;display:inline;width:90vw;border-radius:0%;padding:0%;}
+  .videoScreen{width:300px;}
+  .navbar{height:400px;color:red;}
+  .menuLinks{position:fixed;right:1%;top:5%;background-color: black;}
+ img {
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;    
+ }
+ 
+}
+
 body {
   background: #7474bf;
   background: -webkit-gradient(linear,left top,right top,from(#ffb62f),to(#abf2ff));
@@ -35,12 +50,12 @@ ul {
 } */
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
+@media onl screen and (max-width: 768px) {
   .body{ padding:0; text-align:left;display:inline;}
   /* img {margin-left:-10%;} */
-  .projContainer {margin-left:1%;display:inline;width:100%;border-radius:0%;padding:0%;}
+  .projContainer {margin-left:1%;display:inline;width:90vw;border-radius:0%;padding:0%;}
   .videoScreen{width:300px;}
-  .navbar{height:400px;}
+  .navbar{height:400px;color:red;}
   .menuLinks{position:fixed;right:1%;top:5%;background-color: black;}
  img {
   display: block;  
