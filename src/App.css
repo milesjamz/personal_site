@@ -166,10 +166,13 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-  .body{ padding:0; text-align:left;display:inline;}
+  body{background-repeat:no-repeat;overflow:hidden scroll;}
+  .body{ padding:0; text-align:center;display:inline;}
   /* img {margin-left:-10%;} */
-  .projContainer {margin-left:0;display:block;width:500px;border-radius:40%;padding:3%;background-color:black;}
-  .videoScreen{width:300px;}
+  ul{margin:0;padding:0}
+  .projContainer {border-radius:0;margin-left:0;display:block;width:100vw;padding:0;background-color:black;margin-top:10px;margin-bottom: 20px;}
+  .projText{ border-radius: 50%;}
+  .videoScreen{width:95vw;}
   .navbar{height:50px;}
   .menuLinks{position:fixed;right:1%;top:5%;background-color: black;}
  img {

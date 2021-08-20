@@ -2,6 +2,8 @@ import React from 'react';
 
 function Body(props) {
 
+  // <strong>Miles Marillo</strong><br/>
+  // <em>Full Stack Engineer</em><br/>
   let art = String.raw`
    __  __ _ _              __  __           _ _ _     
   |  \/  (_) |           |  \/  |          (_) | |    
@@ -15,14 +17,13 @@ function Body(props) {
     <div className="body">
 
       <img src={props.pic} height="400em" alt='me, at the computer'></img>
-      <strong>Miles Marillo</strong><br/>
-      <em>Full Stack Engineer</em><br/>
+
       <p>
         I enjoy building things that help people lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
         My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
         Available for full-time, part-time, and contract work.
       </p>
-      <h2>PROJECTS:</h2>
+      <h3>OPEN SOURCE PROJECTS:</h3>
     </div>
   );
 }
