@@ -4,6 +4,11 @@
   /* font: "Times New Roman", Times; */
 }
 
+strong {
+  font-size: 25pt;
+  color:orangered;
+}
+
 body {
   background: #7474bf;
   background: -webkit-gradient(linear,left top,right top,from(#ffb62f),to(#abf2ff));
