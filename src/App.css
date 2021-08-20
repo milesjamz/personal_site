@@ -28,35 +28,13 @@ ul {
   list-style-type: none;
 }
 
-/* Media Queries: Tablet Landscape
-@media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:3%;}  
-} */
-
-/* Media Queries: Tabled Portrait */
-@media onl screen and (max-width: 768px) {
-  .body{ padding:0; text-align:left;display:inline;}
-  /* img {margin-left:-10%;} */
-  .projContainer {margin-left:1%;display:inline;width:90vw;border-radius:0%;padding:0%;}
-  .videoScreen{width:300px;}
-  .navbar{height:400px;color:red;}
-  .menuLinks{position:fixed;right:1%;top:5%;background-color: black;}
- img {
-  display: block;  
-  margin-left: auto;  
-  margin-right: auto;    
- }
- 
-}
-
 .body {
   min-width: 320px;
   max-width: 900px;
   text-align:center;
   padding-top:5%;
-  margin-left:15vw;
-  margin-right:15vw;
+  margin-left:25vw;
+  margin-right:25vw;
  } 
 
  img {
@@ -74,8 +52,8 @@ ul {
   background-color:black;
   height:30px;
   width:100%;
-  padding:.5em;
-  border: solid 1px gray;
+  padding:.1em;
+  /* border: solid 1px gray; */
 }
 
 .navbar a {
@@ -129,7 +107,7 @@ ul {
     /* color:rgb(0, 29, 32); */
   background-color:black;
   color:white;
-  margin-left:2vw;
+  margin-left:8vw;
   padding:5%;
   text-align:center;
   width:1000px;
@@ -173,7 +151,7 @@ ul {
   .projContainer {border-radius:0;margin-left:0;display:block;width:100vw;padding:0;background-color:black;margin-top:10px;margin-bottom: 20px;}
   .projText{ border-radius: 50%;}
   .videoScreen{width:95vw;}
-  .navbar{height:50px;}
+  .navbar{height:70px;}
   .menuLinks{position:fixed;right:1%;top:5%;background-color: black;}
  img {
   display: block;  
