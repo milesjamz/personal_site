@@ -4,6 +4,9 @@ import Video from './Video'
 
 function ProjectContainer(props) {
 
+/* <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/> */
+
+
 const showTechs = techs =>{
     console.log(techs)
     return techs.map((tech, index) => {
@@ -17,18 +20,18 @@ const showTechs = techs =>{
 
 return(
 <div className="projContainer" >
-        {/* <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/> */}
-        <br />
         <div className="projText" >
         <strong >{props.project.name}</strong> <br/> <i>{props.project.description}</i>
-        <p>Tech used: {showTechs(props.project.techUsed)}</p>
+        <p>{showTechs(props.project.techUsed)}</p>
+        <Video film={props.project.videoLink[1]}/>        
+        </div>
+        <br/>
+        Find it on GitHub:
         <GithubBtn text={props.project.link1[1]} 
                    link={props.project.link1[0]}/>
         {props.project.link2 ?
         <GithubBtn text={props.project.link2[1]} 
         link={props.project.link2[0]}/> : null}
-        <Video film={props.project.videoLink[1]}/>        
-        </div>
 </div>
     )
 }
