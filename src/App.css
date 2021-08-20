@@ -1,7 +1,7 @@
 * {
-  /* font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif; */
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
   /* font-family:'Times New Roman', Times, serif; */
-  font: "Times New Roman", Times;
+  /* font: "Times New Roman", Times; */
 }
 
 body {
@@ -65,40 +65,6 @@ ul {
   margin-left: calc(100vw - 600px);
 }
 
-/* .navContainer {
-  display:inline;
-  white-space:nowrap;
-  overflow:hidden;
-  float:right;
-}
-
-.radioButton {
-  display:inline-block; */
-/* } */ 
-
-/* .aboutContainer { */
-  /* display: flex; */
-  /* flex-flow:column nowrap; */
-  /* justify-content: center; */
-  /* align-items: right;
-  text-align:right;
-} */
-/* 
-
-.aboutContainer strong {
-  color:red;
-} */
-/* 
-.aboutContainer a {
-  color:black;
-  font-style:italic;
-}
-
-#skills {
-  width:50vh;
-  height:45vh;
-}
-/*  */
 .projContainer {
   /* background-color:rgb(24, 124, 124); */
     /* color:rgb(0, 29, 32); */

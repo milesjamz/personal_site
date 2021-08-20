@@ -9,12 +9,18 @@ function ProjectContainer(props) {
 
 const showTechs = techs =>{
     console.log(techs)
+    if (techs.length === 1) {
+    return techs
+    } else if (techs.length === 2) {
+        return `${techs[0]} & ${techs[1]}`
+    } else {
     return techs.map((tech, index) => {
     if (index !== techs.length-1) {
     return `${tech}, `
     }
-    else {  return `${tech}` }
+    else {  return ` & ${tech}` }
     })
+}
 }
 // console.log(`./images/${props.project.image}`)
 
@@ -22,7 +28,7 @@ return(
 <div className="projContainer" >
         <div className="projText" >
         <strong >{props.project.name}</strong> <br/> <i>{props.project.description}</i>
-        <p>{showTechs(props.project.techUsed)}</p>
+        <p>Built with {showTechs(props.project.techUsed)}</p>
         <Video film={props.project.videoLink[1]}/>        
         </div>
         <br/>
