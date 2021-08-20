@@ -128,9 +128,14 @@ ul {
     /* color:rgb(0, 29, 32); */
   background-color:black;
   color:white;
-  margin-left:12vw;
+  margin-left:2vw;
+  padding:7%;
+  text-align:center;
   width:1000px;
   height:700px;
+  /* border-radius:70%/100px 100px 0 0; */
+  border-radius:46%;
+
 }
 
 .projContainer button {
