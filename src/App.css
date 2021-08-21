@@ -6,7 +6,7 @@
 
 strong {
   font-size: 25pt;
-  color:oranger;
+  color:orangered;
 }
 
 body {
@@ -67,7 +67,7 @@ ul {
 }
 
 .menuLinks {
-  margin-left: calc(100vw - 600px);
+  margin-left: calc(100vw - 480px);
 }
 
 .projContainer {

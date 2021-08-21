@@ -4,6 +4,10 @@ function Body(props) {
 
   // <strong>Miles Marillo</strong><br/>
   // <em>Full Stack Engineer</em><br/>
+  // <img src={props.pic} height="400em" alt='me, at the computer'></img>
+  // <canvas className='myCanvas'><p>My fallback message</p></canvas>
+
+
   let art = String.raw`
    __  __ _ _              __  __           _ _ _     
   |  \/  (_) |           |  \/  |          (_) | |    
@@ -13,10 +17,9 @@ function Body(props) {
   |_|  |_|_|_|\___||___/ |_|  |_|\__,_|_|  |_|_|_|\___/ 
  `
   console.log(art);  
+  
   return (
     <div className="body">
-
-      <img src={props.pic} height="400em" alt='me, at the computer'></img>
 
       <p>
         I enjoy building things that help people lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
