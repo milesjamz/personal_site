@@ -9,12 +9,46 @@ strong {
   color:orangered;
 }
 
+@keyframes bgcolor {
+    0% {
+        background-color: white;
+    }
+
+    30% {
+        background-color: gray;
+    }
+
+    60% {
+        background-color: pink;
+    }
+
+    90% {
+        background-color: gray;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
 body {
-  background: #7474bf;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+body {
+  /* background: #7474bf;
   background: -webkit-gradient(linear,left top,right top,from(#ffb62f),to(#abf2ff));
   background: linear-gradient(90deg,#ffb62f,#abf2ff);
   font : 20px "Times New Roman", Times;
-  /* margin: 30%; */
+  margin: 30%; */
+  background:
+  linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(1, 136, 1, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  color:white;
 }
 
 button {
@@ -73,7 +107,9 @@ ul {
 .projContainer {
   /* background-color:rgb(24, 124, 124); */
     /* color:rgb(0, 29, 32); */
-  background-color:black;
+  /* background-color:black; */
+      /* background-color: navy; */
+    background: radial-gradient(rgba(128, 128, 128, 0.5), rgba(0, 0, 128, 0.5));
   color:white;
   margin-left:8vw;
   padding:5%;
@@ -94,8 +130,11 @@ ul {
 
 .projContainer:nth-child(even) {
   /* background-color:orange; */
-  background-color:white;
+  /* background-color:white; */
+  /* background-color:lightblue; */
+  background: radial-gradient(rgba(211, 211, 211, 0.5), rgba(255, 192, 203, 0.5));
   color:black;
+  /* background: radial-gradient(white, pink); */
 }
 
 .projContainer:nth-child(even) button {
@@ -103,15 +142,21 @@ ul {
   background-color:lightgray;
   color:black;
 }
-
+/* 
 .projContainer:nth-child(even) .projText {
   background-color:lightblue;
-}
+  background: radial-gradient(GRAY, lightblue);
+} */
 
-  .projText {
-    border-radius:70%;
-    background-color: navy;
-}
+
+
+/* .videoBkg { */
+  /* background-color: gray; */
+  /* height:80%; */
+  /* width:100%; */
+  /* padding-top:25px; */
+  /* padding-right:105px; */
+/* } */
 
 @media only screen and (max-width: 768px) {
   body{background-repeat:no-repeat;overflow:hidden scroll;}

@@ -29,7 +29,9 @@ return(
         <div className="projText" >
         <strong >{props.project.name}</strong> <br/> <i>{props.project.description}</i>
         <p>Built with {showTechs(props.project.techUsed)}</p>
-        <Video film={props.project.videoLink[1]}/>        
+        <div className="videoBkg">
+        <Video film={props.project.videoLink[1]}/> 
+        </div>       
         </div>
         <br/>
         Find it on GitHub:
