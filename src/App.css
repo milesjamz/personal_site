@@ -15,7 +15,7 @@ strong {
     }
 
     30% {
-        background-color: gray;
+        background-color: rgb(255, 175, 248);
     }
 
     60% {
@@ -23,11 +23,11 @@ strong {
     }
 
     90% {
-        background-color: orange;
+        background-color: rgb(255, 194, 81);
     }
 
     100% {
-        background-color: red;
+        background-color: yellow;
     }
 }
 
