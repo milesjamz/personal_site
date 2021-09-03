@@ -6,7 +6,7 @@
 
 strong {
   font-size: 25pt;
-  color:black;
+  color:navy;
 }
 
 @keyframes bgcolor {
@@ -111,7 +111,7 @@ ul {
       /* background-color: navy; */
     /* background: radial-gradient(rgba(128, 128, 128, 0.466), rgba(0, 0, 128, 0.466)); */
   background-color: rgba(255, 255, 255, 0.144);
-    color:white;
+    color:black;
   margin-left:8vw;
   padding:5%;
   text-align:center;
