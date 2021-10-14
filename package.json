@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-pdf": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
-    "react-svg-radar-chart": "^1.2.0"
+    "react-svg-radar-chart": "^1.2.0",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.133.1"
   },
   "scripts": {
     "start": "react-scripts start",
