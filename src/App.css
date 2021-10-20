@@ -6,7 +6,7 @@
 
 strong {
   font-size: 25pt;
-  color:navy;
+  color:orange;
 }
 
 @keyframes bgcolor {
@@ -31,12 +31,12 @@ strong {
     }
 }
 
-body {
+/* body {
     -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
-}
+} */
 
 body {
   /* background: #7474bf;
@@ -44,11 +44,14 @@ body {
   background: linear-gradient(90deg,#ffb62f,#abf2ff);
   font : 20px "Times New Roman", Times;
   margin: 30%; */
-  background:
+  background-color: #33f;
+  background: linear-gradient(180deg, rgba(51,51,255,1) 0%, rgba(235,29,253,1) 50%, rgba(0,249,255,1) 100%); 
+  color:white;
+  /* background:
   linear-gradient(217deg, rgba(0, 255, 242, 0.8), rgba(255,0,0,0) 70.71%),
   linear-gradient(127deg, rgba(1, 136, 1, 0.8), rgba(0,255,0,0) 70.71%),
   linear-gradient(336deg, rgba(0, 11, 163, 0.8), rgba(0,0,255,0) 70.71%);
-  color:black;
+  color:black; */
 }
 
 button {
@@ -104,6 +107,12 @@ ul {
   margin-left: calc(100vw - 480px);
 }
 
+.asciiArt {
+
+  font-family: 'Roboto Mono', monospace;
+    white-space: pre;
+}
+
 .projContainer {
   /* background-color:rgb(24, 124, 124); */
     /* color:rgb(0, 29, 32); */
@@ -111,7 +120,7 @@ ul {
       /* background-color: navy; */
     /* background: radial-gradient(rgba(128, 128, 128, 0.466), rgba(0, 0, 128, 0.466)); */
   background-color: rgba(255, 255, 255, 0.144);
-    color:black;
+    color:white;
   margin-left:8vw;
   padding:5%;
   text-align:center;
@@ -135,7 +144,7 @@ ul {
   /* background-color:white; */
   /* background-color:lightblue; */
   /* background: radial-gradient(rgba(211, 211, 211, 0.5), rgba(255, 192, 203, 0.5)); */
-  color:black;
+  color:white;
   /* background: radial-gradient(white, pink); */
 }
 

@@ -17,10 +17,11 @@ function Body(props) {
   |_|  |_|_|_|\___||___/ |_|  |_|\__,_|_|  |_|_|_|\___/ 
  `
   console.log(art);  
-  
+  var wrappedASCII = {__html: art };
+
   return (
     <div className="body">
-
+        <span className='asciiArt' dangerouslySetInnerHTML={wrappedASCII}></span>
       <p>
         I enjoy building things that help people lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
         My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
