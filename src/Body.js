@@ -9,7 +9,7 @@ function Body(props) {
 
 
   let art = String.raw`
-   __  __ _ _              __  __           _ _ _     
+   __  __ _ _             __  __            _ _ _     
   |  \/  (_) |           |  \/  |          (_) | |    
   | \  / |_| | ___  ___  | \  / | __ _ _ __ _| | | ___ 
   | |\/| | | |/ _ \/ __| | |\/| |/ _\`| '__| | | |/ _ \
@@ -23,9 +23,10 @@ function Body(props) {
     <div className="body">
         <span className='asciiArt' dangerouslySetInnerHTML={wrappedASCII}></span>
       <p>
-        I enjoy building things that help people lead richer, fuller, more human lives, not reduce them to extensions of an algorithm.<br/>
-        My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
-        Available for full-time, part-time, and contract work.
+      &nbsp;&nbsp;&nbsp;&nbsp;I'm a software engineer driven to make beautiful, easy to use &nbsp;&nbsp;&nbsp;&nbsp;tools and experiences which have positive impacts on a user's life.<br/>
+       </p>
+       <p> &nbsp;&nbsp;&nbsp;&nbsp;My interests are data visualization, intuitive and beautiful user &nbsp;&nbsp;&nbsp;&nbsp;experiences, and music.<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;Available for full-time, part-time, and contract work.
       </p>
       <h3>OPEN SOURCE PROJECTS:</h3>
     </div>

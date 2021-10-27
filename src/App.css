@@ -71,12 +71,13 @@ ul {
 }
 
 .body {
-  min-width: 320px;
-  max-width: 900px;
-  text-align:center;
+  min-width: 350px;
+  max-width: 500px;
+  width:40vw;
+  text-align:left;
   padding-top:5%;
-  margin-left:25vw;
-  margin-right:25vw;
+  margin-left:40vw;
+  /* margin-right:25vw; */
  } 
 
  img {
@@ -111,6 +112,11 @@ ul {
 
   font-family: 'Roboto Mono', monospace;
     white-space: pre;
+    font-weight: 900;
+    /* position:fixed; */
+    text-align:right;
+    display: block;
+    color:white;
 }
 
 .projContainer {
@@ -153,22 +159,6 @@ ul {
   background-color:lightgray;
   color:black;
 }
-
-/* 
-.projContainer:nth-child(even) .projText {
-  background-color:lightblue;
-  background: radial-gradient(GRAY, lightblue);
-} */
-
-
-
-/* .videoBkg { */
-  /* background-color: gray; */
-  /* height:80%; */
-  /* width:100%; */
-  /* padding-top:25px; */
-  /* padding-right:105px; */
-/* } */
 
 @media only screen and (max-width: 768px) {
   body{background-repeat:no-repeat;overflow:hidden scroll;}
