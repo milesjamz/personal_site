@@ -23,10 +23,10 @@ function Body(props) {
     <div className="body">
         <span className='asciiArt' dangerouslySetInnerHTML={wrappedASCII}></span>
       <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;I'm a software engineer driven to make beautiful, easy to use &nbsp;&nbsp;&nbsp;&nbsp;tools and experiences which have positive impacts on a user's life.<br/>
+      I'm a software engineer driven to make beautiful, easy to use tools and experiences which have positive impacts on a user's life.<br/>
        </p>
-       <p> &nbsp;&nbsp;&nbsp;&nbsp;My interests are data visualization, intuitive and beautiful user &nbsp;&nbsp;&nbsp;&nbsp;experiences, and music.<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;Available for full-time, part-time, and contract work.
+       <p> My interests are data visualization, intuitive and beautiful user experiences, and music.<br/>
+       Available for full-time, part-time, and contract work.
       </p>
       <h3>OPEN SOURCE PROJECTS:</h3>
     </div>
