@@ -4,9 +4,6 @@ import Video from './Video'
 
 function ProjectContainer(props) {
 
-/* <img src={require(`./images/${props.project.image}`).default} alt={props.project.name} height="15%" width="15%"/> */
-
-
 const showTechs = techs =>{
     console.log(techs)
     if (techs.length === 1) {
@@ -20,9 +17,17 @@ const showTechs = techs =>{
     }
     else {  return ` & ${tech}` }
     })
+    }
 }
-}
-// console.log(`./images/${props.project.image}`)
+
+// props.filter(prop => {
+//     prop.reduce(a,b);
+//     if (prop >= prop.id + 2) {
+//         return prop.toUpperCase()
+//     } else {
+//         return prop.repeat(prop.id + 2)
+//     }
+// })
 
 return(
 <div className="projContainer" >
