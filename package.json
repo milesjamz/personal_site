@@ -10,7 +10,7 @@
     "react-scripts": "^4.0.3",
     "react-svg-radar-chart": "^1.2.0",
     "react-three-fiber": "^6.0.13",
-    "three": "^0.133.1"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
