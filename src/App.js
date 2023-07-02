@@ -4,12 +4,12 @@ export const App = () => {
 
   return (
     <Grid container flexDirection={'column'}>
-      <Grid container item flexDirection={'column'} gap='32px' margin={'24px auto'} xs={3.5}>
+      <Grid container item flexDirection={'column'} gap='32px' margin={'24px auto'} xs={6}>
       <Grid item flexDirection={'column'} >
         <Typography variant='h2'>Miles Marillo</Typography>
-        <Typography variant='subtitle1'>Full Stack Software Engineer</Typography>
+        <Typography color='green' variant='subtitle1'>Full Stack Software Engineer</Typography>
       </Grid>
-      <Grid item flexDirection={'column'} >
+      <Grid item flexDirection={'column'} xs={8}>
         <Typography>Hi! I build software at <a href='https://www.inspire-labs.io' target="_blank" rel="noopener noreferrer">Inspire Labs.</a></Typography>
         <Typography>I've also built some open source projects &mdash; one about <a href='https://github.com/milesjamz/mythOS' target="_blank" rel="noopener noreferrer">🏛️ Greek Mythology</a>, and another one about <a href='https://github.com/milesjamz/bibliotecha' target="_blank" rel="noopener noreferrer">📚 books</a>.</Typography>
         <Typography>I also like music & art.</Typography>
