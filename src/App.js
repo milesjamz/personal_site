@@ -10,8 +10,9 @@ export const App = () => {
         <Typography variant='subtitle1'>Full Stack Software Engineer</Typography>
       </Grid>
       <Grid item flexDirection={'column'} >
-        <Typography variant='body1'>Hi! I build software at <a href='https://www.inspire-labs.io' target="_blank" rel="noopener noreferrer">Inspire Labs.</a></Typography>
-        <Typography variant='body1'>I also like music, writing, and art.</Typography>
+        <Typography>Hi! I build software at <a href='https://www.inspire-labs.io' target="_blank" rel="noopener noreferrer">Inspire Labs.</a></Typography>
+        <Typography>I've also built some open source projects &mdash; one about <a href='https://github.com/milesjamz/mythOS' target="_blank" rel="noopener noreferrer">🏛️ Greek Mythology</a>, and another one about <a href='https://github.com/milesjamz/bibliotecha' target="_blank" rel="noopener noreferrer">📚 books</a>.</Typography>
+        <Typography>I also like music & art.</Typography>
       </Grid>
       <Grid item >
         <Grid item><a href="mailto:milesjmarillo@gmail.com">✉️ email</a></Grid>  
