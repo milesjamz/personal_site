@@ -1,33 +1,25 @@
-import React from 'react';
+import {Grid, Typography} from '@mui/material';
 import './App.css';
-import NavBar from './components/NavBar'
-import Body from './Body'
-import Projects from './Projects'
-import Resume from './mmarillo2021.pdf'
-import Pic from './images/IMG_0888.jpg'
-
-class App extends React.Component {
-
-  state={
-    colorMode:''
-  }
-
-  handleOnChange = (e) => {
-    this.setState({ colorMode: e.target.value })
-  }
-
-  render() {
+export const App = () => {
 
   return (
-    <div className="app">
-    <NavBar onChange={this.handleOnChange}
-            toggle={this.state.colorMode}
-            resume={Resume}        />
-            <Body pic={Pic}/>
-            <Projects />
-
-    </div>
+    <Grid container flexDirection={'column'}>
+      <Grid container item flexDirection={'column'} gap='32px' margin={'24px auto'} xs={3.5}>
+      <Grid item flexDirection={'column'} >
+        <Typography variant='h2'>Miles Marillo</Typography>
+        <Typography variant='subtitle1'>Full Stack Software Engineer</Typography>
+      </Grid>
+      <Grid item flexDirection={'column'} >
+        <Typography>Hi! I build software at <a href='https://www.inspire-labs.io' target="_blank" rel="noopener noreferrer">Inspire Labs.</a></Typography>
+        <Typography>I've also built some open source projects &mdash; one about <a href='https://github.com/milesjamz/mythOS' target="_blank" rel="noopener noreferrer">🏛️ Greek Mythology</a>, and another one about <a href='https://github.com/milesjamz/bibliotecha' target="_blank" rel="noopener noreferrer">📚 books</a>.</Typography>
+        <Typography>I also like music & art.</Typography>
+      </Grid>
+      <Grid item >
+        <Grid item><a href="mailto:milesjmarillo@gmail.com">✉️ email</a></Grid>  
+        <Grid item><a href='https://www.linkedin.com/in/milesjamz/' target="_blank" rel="noopener noreferrer">👔 linkedin</a></Grid> 
+        <Grid item><a href='https://github.com/milesjamz/' target="_blank" rel="noopener noreferrer"> 💻 github </a></Grid>
+      </Grid>
+      </Grid>
+    </Grid>
     );
-  }
 }
-export default App;
