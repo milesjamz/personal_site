@@ -2,13 +2,6 @@ import {Grid, Typography} from '@mui/material';
 import './App.css';
 export const App = () => {
 
-  const getSunsetTime = () => {
-    const hm = fetch('https://api.sunrisesunset.io/json?lat=38.907192&lng=-77.036873')
-    console.log(hm)
-  }
-
-  getSunsetTime()
-
   return (
     <Grid container flexDirection={'column'}>
       <Grid container item flexDirection={'column'} gap='32px' margin={'24px auto'} xs={6}>
